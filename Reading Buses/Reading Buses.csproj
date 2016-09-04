@@ -111,6 +111,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -145,6 +146,9 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\config.js" />
+    <Content Include="scripts\config.min.js">
+      <DependentUpon>config.js</DependentUpon>
+    </Content>
     <Content Include="scripts\controllers\busesController.js" />
     <Content Include="scripts\controllers\busController.js" />
     <Content Include="scripts\controllers\dropdownController.js" />

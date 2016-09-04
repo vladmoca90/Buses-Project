@@ -1,0 +1,21 @@
+[
+  {
+    "outputFileName": "scripts/app.min.js",
+    "inputFiles": [
+      "scripts/controllers/busController.js",
+      "scripts/controllers/busesController.js",
+      "scripts/controllers/dropdownController.js",
+      "scripts/controllers/errorController.js",
+      "scripts/controllers/stopController.js",
+      "scripts/config.js",
+      "scripts/Index.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/styles.min.css",
+    "inputFiles": [
+      "Content/Index.css",
+      "Content/site.css"
+    ]
+  }
+]
