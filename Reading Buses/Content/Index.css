@@ -6,7 +6,6 @@ body {
   padding: 0px;
   background: #FFFFFF; }
 
-#navigation-menu,
 #brand-logo #logo,
 #buttons-nav .buttons-menu > a,
 #footer-texts {
@@ -23,7 +22,6 @@ body {
   color: #FFFFFF; }
 
 #navigation-menu {
-  max-height: 50px;
   background: #C62828 !important;
   margin-bottom: 0px;
   border-radius: 0px !important;
@@ -36,6 +34,9 @@ body {
 
 #buttons-nav {
   margin: 0% 14%; }
+  @media screen and (max-width: 768px) {
+    #buttons-nav {
+      margin: 0%; } }
   #buttons-nav .buttons-menu > a {
     font-size: 18px;
     font-family: Alegreya Sans;

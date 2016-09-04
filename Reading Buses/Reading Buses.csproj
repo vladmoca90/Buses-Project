@@ -167,6 +167,7 @@
     <Content Include="scripts\Index.js" />
     <Content Include="scripts\templates\bus.html" />
     <Content Include="scripts\templates\buses.html" />
+    <Content Include="scripts\templates\directives\navDirective.html" />
     <Content Include="scripts\templates\directives\titleDirective.html" />
     <Content Include="scripts\templates\error.html" />
     <Content Include="scripts\templates\stop.html" />
