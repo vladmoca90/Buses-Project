@@ -32,6 +32,14 @@ body {
   #brand-logo #logo {
     max-height: 75px; }
 
+.entire-button-menu {
+  background: #C62828; }
+  @media screen and (max-width: 768px) {
+    .entire-button-menu {
+      width: 100%;
+      position: absolute;
+      z-index: 1; } }
+
 #buttons-nav {
   margin: 0% 14%; }
   @media screen and (max-width: 768px) {
@@ -64,9 +72,10 @@ body {
     text-decoration: none; }
 
 #languages-list {
-  min-width: 100px !important;
+  min-width: 101px !important;
   text-align: left !important;
   border-radius: 0px !important;
+  right: 1px !important;
   margin-top: 1px; }
   #languages-list li {
     margin-top: 4px; }
