@@ -1,0 +1,151 @@
+﻿<html lang="en-gb">
+<head>
+
+    <title>Routes</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="Content/Index.css" />
+
+    <link rel="stylesheet" type="text/css" href="Content/Routes.css" />
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script src="scripts/Index.js"></script>
+
+</head>
+<body ng-app="myApp">
+    <header>
+        <div class="container entirePageContainer">
+            <nav role="navigation" class="navbar buttonNavbar">
+                <div class="navbar-header headerNavbar">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbarToggleButton">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand navbarImage"><img src="Pictures/readingBusesLogo.gif" title="Logo" alt="Logo" /></a>
+                </div>
+                <div id="navbarCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navProperties">
+                        <li class="navigationButtons"><a href="Index.html">Home</a></li>
+                        <li class="navigationButtons"><a href="Routes.html">Routes</a></li>
+                        <li class="navigationButtons"><a href="#">Fares and tickets</a></li>
+                        <li class="navigationButtons"><a href="#">Offers</a></li>
+                        <li class="navigationButtons"><a href="#">Jobs</a></li>
+                        <li class="navigationButtons"><a href="#">About us</a></li>
+                        <li class="navigationButtons"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div id="poster">
+            <div class="panel panel-default planAJourney">
+                <div class="panel-heading text-center text-uppercase planAJourneyTitle">Plan a Journey</div>
+                <div class="panel-body journey-form-body">
+                    <div id="top-form-container">
+                        <div class="top-form"><a href="#">New</a></div>
+                        <div class="top-form top-form-margin"><a href="#">My Journey</a></div>
+                        <div class="top-form top-form-margin"><a href="#">Recents</a></div>
+                    </div>
+                    <form role="form" class="form-horizontal journey-form">
+                        <div class="form-group to-from">
+                            <label for="from">From:</label>
+                            <input type="text" class="form-control" id="from" placeholder="From" />
+                        </div>
+                        <div class="form-group to-from">
+                            <label for="to">To:</label>
+                            <input type="text" class="form-control" id="to" placeholder="To" />
+                        </div>
+                        <div class="form-group departReturn depart">
+                            <label for="dprt">Depart:</label>
+                            <input type="date" class="form-control" id="usr" />
+                        </div>
+                        <div class="form-group departReturn return">
+                            <label for="rtrn">Return:</label>
+                            <input type="date" class="form-control" id="pwd" />
+                        </div>
+                    </form>
+                    <p class="journey-preferences"><strong>Leaving:</strong> now <a href="#">Change times</a>&nbsp;&nbsp;<strong>></strong></p>
+                    <p class="journey-preferences"><a href="#">Edit preferences:</a>&nbsp;&nbsp;<strong>></strong></p>
+                    <button type="submit" class="btn btn-default departReturnButton text-uppercase">Search route</button>
+                </div>
+            </div>
+        </div>
+        <section id="informationContainer">
+            <aside class="rightSide">
+                <div class="busesReadingList" ng-controller="busesController">
+                    <table class="table table-bordered busDetails">
+                        <tr ng-repeat="busList in busList">
+                            <td class="busesNumbers text-center" ng-bind="busList.number"></td>
+                            <td class="busDestination">{{busList.start}} - {{busList.end}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="panel panel-default panelRight">
+                    <div class="panel-heading text-center">Quick links</div>
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li>The future of transport in Manchester starts now</li>
+                            <li>The future of transport in Manchester starts now</li>
+                            <li>The future of transport in Manchester starts now</li>
+                            <li>The future of transport in Manchester starts now</li>
+                            <li>The future of transport in Manchester starts now</li>
+                            <li>The future of transport in Manchester starts now</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-default panelRight">
+                    <div class="panel-heading text-center">Reading Buses</div>
+                    <div class="panel-body">
+                        We've been looking at the future of transport in Greater Manchester. Now we want your ideas...
+                        Find out more and join in the conversation at tfgm.com/2040, where a short animation of the Greater Manchester Transport Strategy 2040 is also available to view.
+                        You have until 26 September 2016 to share your views.
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </section>
+    <footer>
+        <div id="footerInformation">
+            <div class="footerText">
+                <p>Jobs | Media Centre | Freedom of Information | Disclaimer | Links | AGMA | TfGMC</p>
+            </div>
+            <div class="iconsSectionContainer">
+                <div class="iconsSection clearfix">
+                    <div class="socialIconsSection text-center facebookColor">
+                        <a href="#"><span class="fa fa-facebook facebookIcon"></span></a>
+                    </div>
+                    <div class="socialIconsSection text-center twitterColor">
+                        <a href="#"><span class="fa fa-twitter twitterIcon"></span></a>
+                    </div>
+                    <div class="socialIconsSection text-center googlePlusColor">
+                        <a href="#"><span class="fa fa-google-plus googlePlusIcon"></span></a>
+                    </div>
+                    <div class="socialIconsSection text-center linkedinColor">
+                        <a href="#"><span class="fa fa-linkedin linkedinIcon"></span></a>
+                    </div>
+                    <div class="socialIconsSection text-center youtubeColor">
+                        <a href="#"><span class="fa fa-youtube-play youtubeIcon"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

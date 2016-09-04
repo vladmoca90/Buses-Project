@@ -1,0 +1,15 @@
+﻿<div>
+
+    <button type="button" class="btn btn-danger btn-sm" ng-click="goBack(back)"><span class="fa fa-arrow-left"></span>&nbsp;Back</button>
+
+    <h1 role="heading">Bus Page</h1>
+
+    <p>{{bus.number}}</p>
+    <p>{{bus.start}}</p>
+    <p>{{bus.end}}</p>
+
+    <ul>
+        <li ng-repeat="stop in bus.stops" ng-click="showStopOverview(stop)">{{stop.name}}</li>
+    </ul>
+
+</div>

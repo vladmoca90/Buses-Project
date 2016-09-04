@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "Index.css",
+    "inputFile": "Index.scss"
+  },
+  {
+    "outputFile": "Content/Index.css",
+    "inputFile": "Content/Index.scss"
+  },
+  {
+    "outputFile": "scripts/Index.es5.js",
+    "inputFile": "scripts/Index.js"
+  },
+  {
+    "outputFile": "Content/site.css",
+    "inputFile": "Content/site.scss"
+  }
+]

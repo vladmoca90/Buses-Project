@@ -1,0 +1,167 @@
+﻿@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans");
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+@import url("http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css");
+
+$max-size: 100%;
+$dark-red: #C62828;
+$main-font-size: 16px;
+$main-font-family: Alegreya Sans;
+$ubuntu-font: Ubuntu;
+$white: #FFFFFF;
+
+@mixin widthHeightSizes {
+    width: 100%;
+    height: 100%;
+}
+
+@mixin positions-group {
+     margin: auto;
+     float: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: $white;
+}
+#navigation-menu,
+#brand-logo #logo,
+#buttons-nav .buttons-menu>a,
+#footer-texts  {
+    height: $max-size;
+}
+#languages,
+#languages-list li img,
+#footer-texts {
+    width: $max-size;
+}
+#buttons-nav .buttons-menu>a,
+#languages a,
+#footer {
+    color: $white;
+}
+#navigation-menu {
+    max-height: 50px;
+    background: $dark-red !important;
+    margin-bottom: 0px;
+    border-radius: 0px !important;
+    border: $dark-red;
+}
+#brand-logo {
+    padding: 0px !important;
+    #logo {
+        max-height: 75px;
+    }
+}
+#buttons-nav {
+    margin: 0% 14%;
+    .buttons-menu>a {
+        font-size: 18px;
+        font-family: $main-font-family;
+        max-height: 50px;
+        &:hover {
+            background: #D32F2F;
+            border-bottom: 4px solid #FF5252;
+        }
+    }
+}
+#languages {
+    background-color: #D9534F;
+    background-image: linear-gradient(to bottom, #D9534F, #C12E2A);
+    border-color: #B92C28 #B92C28 #B92C28;
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    font-family: $ubuntu-font;
+    margin-top: 8px;
+    border: 1px solid $white;
+    max-width: 100px;
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+#languages-list {
+    min-width: 100px !important;
+    text-align: left !important;
+    border-radius: 0px !important;
+    margin-top: 1px;
+    li {
+        margin-top: 4px;
+        img {
+            float: left;
+            margin-left: 10px;
+            max-width: 20px;
+            position: relative;
+            top: 4px;
+        }
+    }
+}
+#buses-search-bar {
+    float: right;
+    @media screen and (max-width: 768px) {
+        float: none;
+        border: $dark-red;
+    }
+    input {
+        width: 140px;
+    }
+    div>button {
+        height: 34px;
+        span {
+            font-size: 18px;
+            color: #808080;
+        }
+    }
+}
+#buses-search-bar button,
+#buses-search-bar input {
+    border-radius: 0%;
+}
+.busNumbers {
+    height: $max-size;
+}
+.busesReadingList,
+#footer {
+    @include widthHeightSizes;
+}
+.busesReadingList {
+    font-family: $main-font-family;  
+}
+.busNumbers,
+.busDestination {
+    font-size: $main-font-size + 2px;
+}
+.busesReadingList {   
+    max-width: 450px;  
+}
+.busNumbers {
+    color: black;
+}
+.busDetails {
+    margin-bottom: 0px !important;
+}
+.busesReadingList {  
+    max-height: 250px;
+    overflow-y: scroll;
+    margin: 6% 0%;
+    border: 5px solid #C62828; 
+}
+#footer {
+    font-family: $ubuntu-font;
+    max-height: 145px;
+    background: $dark-red;
+    #footer-texts {
+        max-height: 145px;
+        max-width: 800px;
+        margin: auto;
+        p {
+            padding-top: 2%;
+        }
+    }
+}

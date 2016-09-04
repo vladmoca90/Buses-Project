@@ -1,0 +1,14 @@
+﻿<div>
+
+    <h1 role="heading">{{allBusesInfo.translations.headin}}</h1>
+
+    <div class="busesReadingList">
+        <table class="table table-bordered busDetails">
+            <tr class="bus-row" ng-repeat="bus in allBusesInfo.buses" ng-click="goToBusOverview(bus)">
+                <td class="busNumbers text-center"><a>{{bus.number}}</a></td>
+                <td class="busDestination">{{bus.start}} - {{bus.end}}</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
