@@ -56,6 +56,8 @@
         
         $location.path("/bus");
     }
+
+    $scope.title = $scope.allBusesInfo.translations.headin;
 }
 
 busesController.$inject = ["$scope", "$http", "$location"];

@@ -5,6 +5,8 @@ function stopController($scope, $location) {
     $scope.goBack = function (back) {
         $location.path("/bus");
     }
+
+    $scope.title = "Stop Page";
 }
 
 stopController.$inject = ["$scope", "$location"];

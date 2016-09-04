@@ -100,6 +100,7 @@
     <Content Include="Content\site.min.css">
       <DependentUpon>site.css</DependentUpon>
     </Content>
+    <Content Include="Content\styles.min.css" />
     <Content Include="Images\China.png" />
     <Content Include="Images\France.png" />
     <Content Include="Images\Germany.png" />
@@ -145,6 +146,7 @@
     <Content Include="Images\topSection.jpg" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\app.min.js" />
     <Content Include="scripts\config.js" />
     <Content Include="scripts\config.min.js">
       <DependentUpon>config.js</DependentUpon>
@@ -154,6 +156,8 @@
     <Content Include="scripts\controllers\dropdownController.js" />
     <Content Include="scripts\controllers\errorController.js" />
     <Content Include="scripts\controllers\stopController.js" />
+    <Content Include="scripts\directives\navDirective.js" />
+    <Content Include="scripts\directives\titleDirective.js" />
     <Content Include="scripts\Index.es5.js">
       <DependentUpon>Index.js</DependentUpon>
     </Content>
@@ -163,6 +167,7 @@
     <Content Include="scripts\Index.js" />
     <Content Include="scripts\templates\bus.html" />
     <Content Include="scripts\templates\buses.html" />
+    <Content Include="scripts\templates\directives\titleDirective.html" />
     <Content Include="scripts\templates\error.html" />
     <Content Include="scripts\templates\stop.html" />
     <Content Include="Web.config" />

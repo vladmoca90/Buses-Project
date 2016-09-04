@@ -11,6 +11,8 @@ function busController($scope, $location) {
     $scope.goBack = function (back) {
         $location.path("/buses");
     }
+
+    $scope.title = "Bus Page";
 }
 
 busController.$inject = ["$scope", "$location"];

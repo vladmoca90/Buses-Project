@@ -4,19 +4,7 @@
     "inputFile": "Content/Index.scss"
   },
   {
-    "outputFile": "Content/Index.css",
-    "inputFile": "Content/Index.scss"
-  },
-  {
-    "outputFile": "scripts/Index.es5.js",
-    "inputFile": "scripts/Index.js"
-  },
-  {
     "outputFile": "Content/site.css",
     "inputFile": "Content/site.scss"
-  },
-  {
-    "outputFile": "scripts/controllers/busController.es5.js",
-    "inputFile": "scripts/controllers/busController.js"
   }
 ]
