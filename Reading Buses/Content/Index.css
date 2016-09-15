@@ -144,4 +144,8 @@ body {
     margin: auto; }
     #footer #footer-texts p {
       padding-top: 2%; }
+      #footer #footer-texts p .sitemap {
+        padding-right: 7px; }
+      #footer #footer-texts p .useful-links {
+        padding-left: 7px; }
 
