@@ -24,8 +24,13 @@ body {
 #navigation-menu {
   background: #C62828 !important;
   margin-bottom: 0px;
-  border-radius: 0px !important;
-  border: #C62828; }
+  border-radius: 0px !important; }
+  #navigation-menu #button-toggle:hover {
+    background: #C62828; }
+
+#navigation-menu,
+.entire-button-menu {
+  border: #C62828 !important; }
 
 #brand-logo {
   padding: 0px !important; }
@@ -37,6 +42,7 @@ body {
   @media screen and (max-width: 768px) {
     .entire-button-menu {
       width: 100%;
+      padding-left: 0px !important;
       position: absolute;
       z-index: 1; } }
 
@@ -52,6 +58,9 @@ body {
     #buttons-nav .buttons-menu > a:hover {
       background: #D32F2F;
       border-bottom: 4px solid #FF5252; }
+      @media screen and (max-width: 768px) {
+        #buttons-nav .buttons-menu > a:hover {
+          border-bottom: 0px; } }
 
 #languages {
   background-color: #D9534F;
@@ -75,7 +84,7 @@ body {
   min-width: 101px !important;
   text-align: left !important;
   border-radius: 0px !important;
-  left: -1;
+  left: -1px;
   margin-top: 1px; }
   #languages-list li {
     margin-top: 4px; }

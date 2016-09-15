@@ -45,7 +45,13 @@ body {
     background: $dark-red !important;
     margin-bottom: 0px;
     border-radius: 0px !important;
-    border: $dark-red;
+    #button-toggle:hover {
+        background: $dark-red;
+    }
+}
+#navigation-menu,
+.entire-button-menu {
+    border: $dark-red !important;
 }
 #brand-logo {
     padding: 0px !important;
@@ -57,6 +63,7 @@ body {
     background: $dark-red;
     @media screen and (max-width: 768px) {
         width: $max-size;
+        padding-left: 0px !important;
         position: absolute;
         z-index: 1;
     }
@@ -73,6 +80,9 @@ body {
         &:hover {
             background: #D32F2F;
             border-bottom: 4px solid #FF5252;
+            @media screen and (max-width: 768px) {
+                border-bottom: 0px;
+            }
         }
     }
 }
@@ -99,7 +109,7 @@ body {
     min-width: 101px !important;
     text-align: left !important;
     border-radius: 0px !important;
-    left: -1;
+    left: -1px;
     margin-top: 1px;
     li {
         margin-top: 4px;
