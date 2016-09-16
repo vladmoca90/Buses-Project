@@ -45,8 +45,15 @@ body {
     background: $dark-red !important;
     margin-bottom: 0px;
     border-radius: 0px !important;
-    #button-toggle:hover {
-        background: $dark-red;
+    #button-toggle {
+        border: 2px solid $white !important;
+        border-radius: 8px !important;
+        &:hover {
+            background: $dark-red !important;
+        }
+        &:focus {
+            background: $dark-red !important;
+        }
     }
 }
 #navigation-menu,
@@ -137,8 +144,8 @@ body {
         height: $max-size;
         min-height: 50px;
         border: $dark-red;
-        -webkit-box-shadow: 0;
-        box-shadow: 0;
+        -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
+        box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
     }
     input {
         width: 140px;
