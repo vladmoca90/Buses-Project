@@ -202,13 +202,13 @@ input[type="search"],
     max-height: 200px;
     font-family: $ubuntu-font;
     background: $dark-red;
-    #footer-texts {
+    #footer-texts-container {
         max-height: 165px;
         max-width: 900px;
         margin: auto;
         background: #D32F2F;
         padding-top: 1.5%;
-        p {
+        #footer-texts>p {
             padding: 1% 0% 0% 1.5%;
             .sitemap,
             .useful-links,
