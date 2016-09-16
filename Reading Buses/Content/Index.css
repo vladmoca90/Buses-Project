@@ -125,12 +125,12 @@ input[type="search"],
       color: #808080; }
 
 @media screen and (max-width: 768px) {
-  #buses-search-bar input,
+  #buses-search-bar input[type="search"],
   #buses-search-bar div > button {
     float: left; } }
 
 #buses-search-bar button,
-#buses-search-bar input {
+#buses-search-bar input[type="search"] {
   border-radius: 0%; }
 
 .busNumbers {
