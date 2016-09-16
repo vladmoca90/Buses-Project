@@ -7,7 +7,7 @@ body {
   background: #FFFFFF; }
 
 #brand-logo #logo,
-#buttons-nav .buttons-menu > a,
+.buttons-menu > li,
 #footer-texts {
   height: 100%; }
 
@@ -51,16 +51,18 @@ body {
   @media screen and (max-width: 768px) {
     #buttons-nav {
       margin: 0%; } }
-  #buttons-nav .buttons-menu > a {
-    font-size: 18px;
-    font-family: Alegreya Sans;
-    max-height: 50px; }
-    #buttons-nav .buttons-menu > a:hover {
-      background: #D32F2F;
-      border-bottom: 4px solid #FF5252; }
-      @media screen and (max-width: 768px) {
-        #buttons-nav .buttons-menu > a:hover {
-          border-bottom: 0px; } }
+  #buttons-nav .buttons-menu > li {
+    max-height: 50px;
+    line-height: 50px; }
+    #buttons-nav .buttons-menu > li a {
+      font-size: 18px;
+      font-family: Alegreya Sans; }
+      #buttons-nav .buttons-menu > li a:hover {
+        background: #D32F2F;
+        border-bottom: 4px solid #FF5252; }
+        @media screen and (max-width: 768px) {
+          #buttons-nav .buttons-menu > li a:hover {
+            border-bottom: 0px; } }
 
 #languages {
   background-color: #D9534F;
@@ -98,15 +100,26 @@ body {
       top: 4px; }
 
 #buses-search-bar {
-  float: right; }
+  float: right;
+  margin-left: 0px; }
   @media screen and (max-width: 768px) {
     #buses-search-bar {
       float: none;
-      border: #C62828; } }
+      height: 100%;
+      min-height: 50px;
+      border: #C62828;
+      -webkit-box-shadow: 0;
+      box-shadow: 0; } }
   #buses-search-bar input {
     width: 140px; }
+    @media screen and (max-width: 768px) {
+      #buses-search-bar input {
+        float: left; } }
   #buses-search-bar div > button {
     height: 34px; }
+    @media screen and (max-width: 768px) {
+      #buses-search-bar div > button {
+        float: left; } }
     #buses-search-bar div > button span {
       font-size: 18px;
       color: #808080; }

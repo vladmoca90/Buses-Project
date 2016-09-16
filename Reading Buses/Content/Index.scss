@@ -27,7 +27,7 @@ body {
     background: $white;
 }
 #brand-logo #logo,
-#buttons-nav .buttons-menu>a,
+.buttons-menu>li,
 #footer-texts  {
     height: $max-size;
 }
@@ -73,15 +73,18 @@ body {
     @media screen and (max-width: 768px) {
         margin: 0%;
     }
-    .buttons-menu>a {
-        font-size: 18px;
-        font-family: $main-font-family;
+    .buttons-menu>li {
         max-height: 50px;
-        &:hover {
-            background: #D32F2F;
-            border-bottom: 4px solid #FF5252;
-            @media screen and (max-width: 768px) {
-                border-bottom: 0px;
+        line-height: 50px;
+        a {
+            font-size: 18px;
+            font-family: $main-font-family;
+            &:hover {
+                background: #D32F2F;
+                border-bottom: 4px solid #FF5252;
+                @media screen and (max-width: 768px) {
+                    border-bottom: 0px;
+                }
             }
         }
     }
@@ -127,15 +130,26 @@ body {
 }
 #buses-search-bar {
     float: right;
+    margin-left: 0px;
     @media screen and (max-width: 768px) {
         float: none;
+        height: $max-size;
+        min-height: 50px;
         border: $dark-red;
+        -webkit-box-shadow: 0;
+        box-shadow: 0;
     }
     input {
         width: 140px;
+        @media screen and (max-width: 768px) {
+            float: left;
+        }
     }
     div>button {
         height: 34px;
+        @media screen and (max-width: 768px) {
+            float: left;
+        }
         span {
             font-size: 18px;
             color: #808080;
