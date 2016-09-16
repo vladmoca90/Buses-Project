@@ -146,19 +146,19 @@ body {
     }
     input {
         width: 140px;
-        @media screen and (max-width: 768px) {
-            float: left;
-        }
     }
     div>button {
         height: 34px;
-        @media screen and (max-width: 768px) {
-            float: left;
-        }
         span {
             font-size: $main-font-size + 2px;
             color: #808080;
         }
+    }
+}
+#buses-search-bar input,
+#buses-search-bar div>button {
+    @media screen and (max-width: 768px) {
+            float: left;
     }
 }
 #buses-search-bar button,
@@ -194,12 +194,14 @@ body {
     margin: 2% 0%;
     border: 5px solid #C62828; 
 }
+#footer,
+#footer-texts {
+    max-height: 145px;
+}
 #footer {
     font-family: $ubuntu-font;
-    max-height: 145px;
     background: $dark-red;
     #footer-texts {
-        max-height: 145px;
         max-width: 800px;
         margin: auto;
         p {
@@ -209,6 +211,16 @@ body {
             }
             .useful-links {
                 padding-left: 7px;
+            }
+            .footer-Reading {
+                font: {
+                    size: $main-font-size + 1px;
+                    weight: bold;
+                }
+            }
+            .footer-Buses {
+                font-size: $main-font-size;
+                color: #F7A600;
             }
         }
     }

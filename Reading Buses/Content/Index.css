@@ -116,17 +116,16 @@ body {
       box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.1), 0 0px 0 rgba(255, 255, 255, 0.1); } }
   #buses-search-bar input {
     width: 140px; }
-    @media screen and (max-width: 768px) {
-      #buses-search-bar input {
-        float: left; } }
   #buses-search-bar div > button {
     height: 34px; }
-    @media screen and (max-width: 768px) {
-      #buses-search-bar div > button {
-        float: left; } }
     #buses-search-bar div > button span {
       font-size: 18px;
       color: #808080; }
+
+@media screen and (max-width: 768px) {
+  #buses-search-bar input,
+  #buses-search-bar div > button {
+    float: left; } }
 
 #buses-search-bar button,
 #buses-search-bar input {
@@ -162,12 +161,14 @@ body {
   margin: 2% 0%;
   border: 5px solid #C62828; }
 
+#footer,
+#footer-texts {
+  max-height: 145px; }
+
 #footer {
   font-family: Ubuntu;
-  max-height: 145px;
   background: #C62828; }
   #footer #footer-texts {
-    max-height: 145px;
     max-width: 800px;
     margin: auto; }
     #footer #footer-texts p {
@@ -176,4 +177,10 @@ body {
         padding-right: 7px; }
       #footer #footer-texts p .useful-links {
         padding-left: 7px; }
+      #footer #footer-texts p .footer-Reading {
+        font-size: 17px;
+        font-weight: bold; }
+      #footer #footer-texts p .footer-Buses {
+        font-size: 16px;
+        color: #F7A600; }
 
