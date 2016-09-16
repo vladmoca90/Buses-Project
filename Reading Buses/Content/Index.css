@@ -28,9 +28,7 @@ body {
   #navigation-menu #button-toggle {
     border: 2px solid #FFFFFF !important;
     border-radius: 8px !important; }
-    #navigation-menu #button-toggle:hover {
-      background: #C62828 !important; }
-    #navigation-menu #button-toggle:focus {
+    #navigation-menu #button-toggle:hover, #navigation-menu #button-toggle:focus {
       background: #C62828 !important; }
 
 #navigation-menu,

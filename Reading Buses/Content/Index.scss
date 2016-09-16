@@ -48,10 +48,7 @@ body {
     #button-toggle {
         border: 2px solid $white !important;
         border-radius: 8px !important;
-        &:hover {
-            background: $dark-red !important;
-        }
-        &:focus {
+        &:hover, &:focus {
             background: $dark-red !important;
         }
     }
