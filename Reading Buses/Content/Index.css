@@ -176,8 +176,9 @@ body {
       #footer #footer-texts p .sitemap,
       #footer #footer-texts p .useful-links,
       #footer #footer-texts p .footer-Buses,
-      #footer #footer-texts p .great-knollys-street {
-        font-size: 16px; }
+      #footer #footer-texts p .great-knollys-street,
+      #footer #footer-texts p .telephone-number {
+        font-size: 15px; }
       #footer #footer-texts p .sitemap {
         padding-right: 7px; }
       #footer #footer-texts p .useful-links {
