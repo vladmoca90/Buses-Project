@@ -196,15 +196,13 @@ input[type="search"],
     margin: 2% 0%;
     border: 5px solid #C62828; 
 }
-#footer,
-#footer-texts {
-    max-height: 145px;
-}
 #footer {
+    max-height: 200px;
     font-family: $ubuntu-font;
     background: $dark-red;
     #footer-texts {
-        max-width: 800px;
+        max-height: 145px;
+        max-width: 900px;
         margin: auto;
         p {
             padding: 1.2% 0%;
