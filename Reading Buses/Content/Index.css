@@ -159,7 +159,7 @@ body {
 .busesReadingList {
   max-height: 250px;
   overflow-y: scroll;
-  margin: 6% 0%;
+  margin: 2% 0%;
   border: 5px solid #C62828; }
 
 #footer {

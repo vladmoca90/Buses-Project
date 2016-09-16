@@ -81,7 +81,7 @@ body {
         max-height: 50px;
         line-height: 46px;
         a {
-            font-size: 18px;
+            font-size: $main-font-size + 2px;
             font-family: $main-font-family;
             &:hover {
                 background: #D32F2F;
@@ -156,7 +156,7 @@ body {
             float: left;
         }
         span {
-            font-size: 18px;
+            font-size: $main-font-size + 2px;
             color: #808080;
         }
     }
@@ -191,7 +191,7 @@ body {
 .busesReadingList {  
     max-height: 250px;
     overflow-y: scroll;
-    margin: 6% 0%;
+    margin: 2% 0%;
     border: 5px solid #C62828; 
 }
 #footer {
