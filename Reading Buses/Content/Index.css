@@ -88,6 +88,8 @@ body {
   margin-top: 1px; }
   #languages-list li {
     margin-top: 4px; }
+    #languages-list li:hover {
+      background: #f2f1f1; }
     #languages-list li img {
       float: left;
       margin-left: 10px;

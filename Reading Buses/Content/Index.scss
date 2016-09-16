@@ -113,6 +113,9 @@ body {
     margin-top: 1px;
     li {
         margin-top: 4px;
+        &:hover {
+            background: #f2f1f1;
+        }
         img {
             float: left;
             margin-left: 10px;
