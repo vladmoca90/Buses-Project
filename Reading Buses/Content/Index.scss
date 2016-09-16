@@ -26,11 +26,12 @@ body {
     padding: 0px;
     background: $white;
 }
-#brand-logo #logo,
+#banner figure>#logo,
 .buttons-menu>li,
 #footer-texts  {
     height: $max-size;
 }
+#banner figure>#logo,
 #languages,
 #languages-list li img,
 input[type="search"],
@@ -58,9 +59,10 @@ input[type="search"],
 .entire-button-menu {
     border: $dark-red !important;
 }
-#brand-logo {
+#banner {
     padding: 0px !important;
-    #logo {
+    figure>#logo {
+        max-width: 180px;
         max-height: 75px;
     }
 }
@@ -201,11 +203,13 @@ input[type="search"],
     font-family: $ubuntu-font;
     background: $dark-red;
     #footer-texts {
-        max-height: 145px;
+        max-height: 165px;
         max-width: 900px;
         margin: auto;
+        background: #D32F2F;
+        padding-top: 1.5%;
         p {
-            padding: 1.2% 0%;
+            padding: 1% 0% 0% 1.5%;
             .sitemap,
             .useful-links,
             .footer-Buses,
@@ -226,6 +230,7 @@ input[type="search"],
                 }
             }
             .footer-Buses {
+                font-size: $main-font-size;
                 color: #F7A600;
             }
         }

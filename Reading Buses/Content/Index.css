@@ -6,11 +6,12 @@ body {
   padding: 0px;
   background: #FFFFFF; }
 
-#brand-logo #logo,
+#banner figure > #logo,
 .buttons-menu > li,
 #footer-texts {
   height: 100%; }
 
+#banner figure > #logo,
 #languages,
 #languages-list li img,
 input[type="search"],
@@ -36,9 +37,10 @@ input[type="search"],
 .entire-button-menu {
   border: #C62828 !important; }
 
-#brand-logo {
+#banner {
   padding: 0px !important; }
-  #brand-logo #logo {
+  #banner figure > #logo {
+    max-width: 180px;
     max-height: 75px; }
 
 .entire-button-menu {
@@ -168,11 +170,13 @@ input[type="search"],
   font-family: Ubuntu;
   background: #C62828; }
   #footer #footer-texts {
-    max-height: 145px;
+    max-height: 165px;
     max-width: 900px;
-    margin: auto; }
+    margin: auto;
+    background: #D32F2F;
+    padding-top: 1.5%; }
     #footer #footer-texts p {
-      padding: 1.2% 0%; }
+      padding: 1% 0% 0% 1.5%; }
       #footer #footer-texts p .sitemap,
       #footer #footer-texts p .useful-links,
       #footer #footer-texts p .footer-Buses,
@@ -187,5 +191,6 @@ input[type="search"],
         font-size: 17px;
         font-weight: bold; }
       #footer #footer-texts p .footer-Buses {
+        font-size: 16px;
         color: #F7A600; }
 
