@@ -73,15 +73,16 @@ body {
     @media screen and (max-width: 768px) {
         margin: 0%;
     }
-    .buttons-menu>li {
+    .buttons-menu {
         max-height: 50px;
-        line-height: 50px;
+        line-height: 46px;
         a {
             font-size: 18px;
             font-family: $main-font-family;
             &:hover {
                 background: #D32F2F;
                 border-bottom: 4px solid #FF5252;
+                max-height: 50px;
                 @media screen and (max-width: 768px) {
                     border-bottom: 0px;
                 }

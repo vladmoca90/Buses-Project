@@ -51,17 +51,18 @@ body {
   @media screen and (max-width: 768px) {
     #buttons-nav {
       margin: 0%; } }
-  #buttons-nav .buttons-menu > li {
+  #buttons-nav .buttons-menu {
     max-height: 50px;
-    line-height: 50px; }
-    #buttons-nav .buttons-menu > li a {
+    line-height: 46px; }
+    #buttons-nav .buttons-menu a {
       font-size: 18px;
       font-family: Alegreya Sans; }
-      #buttons-nav .buttons-menu > li a:hover {
+      #buttons-nav .buttons-menu a:hover {
         background: #D32F2F;
-        border-bottom: 4px solid #FF5252; }
+        border-bottom: 4px solid #FF5252;
+        max-height: 50px; }
         @media screen and (max-width: 768px) {
-          #buttons-nav .buttons-menu > li a:hover {
+          #buttons-nav .buttons-menu a:hover {
             border-bottom: 0px; } }
 
 #languages {
