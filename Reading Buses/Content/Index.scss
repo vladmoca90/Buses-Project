@@ -206,6 +206,13 @@ body {
         margin: auto;
         p {
             padding-top: 2%;
+            .sitemap,
+            .useful-links,
+            .footer-Buses,
+            .great-knollys-street,
+            .telephone-number {
+                font-size: $main-font-size;
+            }
             .sitemap {
                 padding-right: 7px;
             }
@@ -219,9 +226,9 @@ body {
                 }
             }
             .footer-Buses {
-                font-size: $main-font-size;
                 color: #F7A600;
             }
         }
+       
     }
 }
