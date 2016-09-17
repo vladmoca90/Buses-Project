@@ -27,11 +27,13 @@ body {
     background: $white;
 }
 #top,
+#top img,
 #banner figure>#logo,
 .buttons-menu>li,
 #footer-texts  {
     height: $max-size;
 }
+#top img,
 #banner figure>#logo,
 #languages,
 #languages-list li img,
@@ -43,6 +45,10 @@ input[type="search"],
 }
 #top {
     max-height: 70px;
+    img {
+        max-width: 300px;
+        max-height: 70px;
+    }
 }
 #buttons-nav .buttons-menu>a,
 #languages a,
