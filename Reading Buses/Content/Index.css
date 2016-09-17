@@ -24,7 +24,8 @@ input[type="search"],
   width: 100%; }
 
 #top {
-  max-height: 70px; }
+  max-height: 70px;
+  font-family: Alegreya Sans; }
   #top img {
     max-width: 300px;
     max-height: 70px; }
