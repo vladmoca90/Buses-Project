@@ -40,16 +40,14 @@ input[type="search"],
       height: 100%;
       max-height: 50px; } }
   #buses-search-bar input[type="search"] {
+    max-height: 30px;
     max-width: 125px; }
   #buses-search-bar div > button {
-    background: #E53935; }
+    max-height: 32px;
+    background: #EF5350; }
     #buses-search-bar div > button span {
       font-size: 16px;
       color: #FFFFFF; }
-
-input[type="search"],
-#buses-search-bar div > button {
-  max-height: 32px; }
 
 @media screen and (max-width: 768px) {
   #buses-search-bar input[type="search"],

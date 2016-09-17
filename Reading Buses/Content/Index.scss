@@ -61,19 +61,17 @@ input[type="search"],
         max-height: 50px;
     }
     input[type="search"] {
+        max-height: 30px;
         max-width: 125px;
     }
     div>button {
-        background: #E53935;
+        max-height: 32px;
+        background: #EF5350;
         span {
             font-size: $main-font-size;
             color: $white;
         }
     }
-}
-input[type="search"],
-#buses-search-bar div>button {
-    max-height: 32px;
 }
 #buses-search-bar input[type="search"],
 #buses-search-bar div>button {
