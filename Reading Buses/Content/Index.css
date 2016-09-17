@@ -119,7 +119,7 @@ input[type="search"],
 
 #buses-search-bar {
   float: right;
-  margin-left: 0px; }
+  margin: 1.3% 0% 0% 0%; }
   @media screen and (max-width: 768px) {
     #buses-search-bar {
       float: none;
