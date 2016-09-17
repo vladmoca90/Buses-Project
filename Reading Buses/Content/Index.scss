@@ -26,6 +26,7 @@ body {
     padding: 0px;
     background: $white;
 }
+#top,
 #banner figure>#logo,
 .buttons-menu>li,
 #footer-texts  {
@@ -39,6 +40,9 @@ input[type="search"],
 #poster>img,
 #footer-texts {
     width: $max-size;
+}
+#top {
+    max-height: 70px;
 }
 #buttons-nav .buttons-menu>a,
 #languages a,

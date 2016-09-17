@@ -6,6 +6,7 @@ body {
   padding: 0px;
   background: #FFFFFF; }
 
+#top,
 #banner figure > #logo,
 .buttons-menu > li,
 #footer-texts {
@@ -19,6 +20,9 @@ input[type="search"],
 #poster > img,
 #footer-texts {
   width: 100%; }
+
+#top {
+  max-height: 70px; }
 
 #buttons-nav .buttons-menu > a,
 #languages a,
