@@ -49,6 +49,39 @@ input[type="search"],
         max-height: 70px;
     }
 }
+#buses-search-bar {
+    float: right;
+    margin: 1.3% 0% 0% 0%;
+    @media screen and (max-width: 768px) {
+        float: none;
+        height: $max-size;
+        min-height: 50px;
+        border: $dark-red;
+        -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
+        box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
+    }
+    input[type="search"] {
+        max-width: 135px;
+        box-shadow: inset 0px 3px 0px 0 rgba(0,0,0,0.1);
+    }
+    div>button {
+        height: 34px;
+        span {
+            font-size: $main-font-size + 2px;
+            color: #808080;
+        }
+    }
+}
+#buses-search-bar input[type="search"],
+#buses-search-bar div>button {
+    @media screen and (max-width: 768px) {
+            float: left;
+    }
+}
+#buses-search-bar button,
+#buses-search-bar input[type="search"] {
+    border-radius: 0%;
+}
 #buttons-nav .buttons-menu>a,
 #languages a,
 #footer {
@@ -70,13 +103,6 @@ input[type="search"],
 #navigation-menu,
 .entire-button-menu {
     border: $dark-red !important;
-}
-#banner {
-    padding: 0px !important;
-    figure>#logo {
-        max-width: 180px;
-        max-height: 50px;
-    }
 }
 .entire-button-menu {
     background: $dark-red;
@@ -145,39 +171,6 @@ input[type="search"],
             top: 4px;
         }
     }
-}
-#buses-search-bar {
-    float: right;
-    margin: 1.3% 0% 0% 0%;
-    @media screen and (max-width: 768px) {
-        float: none;
-        height: $max-size;
-        min-height: 50px;
-        border: $dark-red;
-        -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
-        box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
-    }
-    input[type="search"] {
-        max-width: 135px;
-        box-shadow: inset 0px 3px 0px 0 rgba(0,0,0,0.1);
-    }
-    div>button {
-        height: 34px;
-        span {
-            font-size: $main-font-size + 2px;
-            color: #808080;
-        }
-    }
-}
-#buses-search-bar input[type="search"],
-#buses-search-bar div>button {
-    @media screen and (max-width: 768px) {
-            float: left;
-    }
-}
-#buses-search-bar button,
-#buses-search-bar input[type="search"] {
-    border-radius: 0%;
 }
 .busNumbers {
     height: $max-size;
