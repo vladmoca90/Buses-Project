@@ -58,6 +58,12 @@
     }
 
     $scope.title = $scope.allBusesInfo.translations.headin;
+
+    $http.get("").then(function (results) {
+        /*success*/
+    }, function (error) {
+        /*error*/
+    });
 }
 
 busesController.$inject = ["$scope", "$http", "$location"];
