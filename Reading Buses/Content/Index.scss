@@ -110,14 +110,11 @@ input[type="search"],
     }
 }
 #languages {
-    background-color: #D9534F;
-    background-image: linear-gradient(to bottom, #D9534F, #C12E2A);
-    border-color: #B92C28 #B92C28 #B92C28;
     float: left;
     padding: 5px;
     font-size: 15px;
     font-family: $ubuntu-font;
-    margin-top: 10px;
+    margin-top: 9px;
     border: 1px solid $white;
     max-width: 100px;
     cursor: pointer;
