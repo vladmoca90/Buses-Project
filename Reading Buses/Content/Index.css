@@ -44,10 +44,11 @@ input[type="search"],
     max-width: 135px;
     box-shadow: inset 0px 3px 0px 0 rgba(0, 0, 0, 0.1); }
   #buses-search-bar div > button {
-    max-height: 32px; }
+    max-height: 32px;
+    background: #D32F2F; }
     #buses-search-bar div > button span {
       font-size: 16px;
-      color: #808080; }
+      color: #FFFFFF; }
 
 @media screen and (max-width: 768px) {
   #buses-search-bar input[type="search"],
