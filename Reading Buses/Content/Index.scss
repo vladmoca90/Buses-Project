@@ -55,16 +55,17 @@ input[type="search"],
 #footer {
     color: $white;
 }
-#navigation-menu {
+#navigation-menu,
+#navigation-menu #button-toggle:hover,
+#navigation-menu #button-toggle:focus {
     background: $dark-red !important;
+}
+#navigation-menu {
     margin-bottom: 0px;
     border-radius: 0px !important;
     #button-toggle {
         border: 2px solid $white !important;
         border-radius: 8px !important;
-        &:hover, &:focus {
-            background: $dark-red !important;
-        }
     }
 }
 #navigation-menu,

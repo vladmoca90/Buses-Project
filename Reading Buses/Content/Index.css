@@ -34,15 +34,17 @@ input[type="search"],
 #footer {
   color: #FFFFFF; }
 
+#navigation-menu,
+#navigation-menu #button-toggle:hover,
+#navigation-menu #button-toggle:focus {
+  background: #C62828 !important; }
+
 #navigation-menu {
-  background: #C62828 !important;
   margin-bottom: 0px;
   border-radius: 0px !important; }
   #navigation-menu #button-toggle {
     border: 2px solid #FFFFFF !important;
     border-radius: 8px !important; }
-    #navigation-menu #button-toggle:hover, #navigation-menu #button-toggle:focus {
-      background: #C62828 !important; }
 
 #navigation-menu,
 .entire-button-menu {
