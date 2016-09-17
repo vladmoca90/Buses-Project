@@ -88,7 +88,7 @@ input[type="search"],
     }
 }
 #buttons-nav {
-    margin: 0% 14%;
+    margin: 0% 8%;
     @media screen and (max-width: 768px) {
         margin: 0%;
     }
@@ -117,7 +117,7 @@ input[type="search"],
     padding: 5px;
     font-size: 15px;
     font-family: $ubuntu-font;
-    margin-top: 8px;
+    margin-top: 10px;
     border: 1px solid $white;
     max-width: 100px;
     cursor: pointer;
