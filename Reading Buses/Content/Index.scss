@@ -4,12 +4,12 @@
 
 @import url("http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css");
 
-$max-size: 100%;
-$dark-red: #C62828;
-$main-font-size: 16px;
-$main-font-family: Alegreya Sans;
-$ubuntu-font: Ubuntu;
-$white: #FFFFFF;
+@max-size: 100%;
+@dark-red: #C62828;
+@main-font-size: 16px;
+@main-font-family: Alegreya Sans;
+@ubuntu-font: Ubuntu;
+@white: #FFFFFF;
 
 @mixin widthHeightSizes {
     width: 100%;
@@ -24,14 +24,14 @@ $white: #FFFFFF;
 body {
     margin: 0px;
     padding: 0px;
-    background: $white;
+    background: @white;
 }
 #top,
 #top img,
 #banner figure>#logo,
 .buttons-menu>li,
 #footer-texts  {
-    height: $max-size;
+    height: @max-size;
 }
 #top img,
 #banner figure>#logo,
@@ -41,7 +41,7 @@ input[type="search"],
 #poster,
 #poster>img,
 #footer-texts {
-    width: $max-size;
+    width: @max-size;
 }
 #top {
     max-height: 70px;
@@ -53,23 +53,23 @@ input[type="search"],
 #buttons-nav .buttons-menu>a,
 #languages a,
 #footer {
-    color: $white;
+    color: @white;
 }
 #navigation-menu {
-    background: $dark-red !important;
+    background: @dark-red !important;
     margin-bottom: 0px;
     border-radius: 0px !important;
     #button-toggle {
-        border: 2px solid $white !important;
+        border: 2px solid @white !important;
         border-radius: 8px !important;
         &:hover, &:focus {
-            background: $dark-red !important;
+            background: @dark-red !important;
         }
     }
 }
 #navigation-menu,
 .entire-button-menu {
-    border: $dark-red !important;
+    border: @dark-red !important;
 }
 #banner {
     padding: 0px !important;
@@ -79,9 +79,9 @@ input[type="search"],
     }
 }
 .entire-button-menu {
-    background: $dark-red;
+    background: @dark-red;
     @media screen and (max-width: 768px) {
-        width: $max-size;
+        width: @max-size;
         padding-left: 0px !important;
         position: absolute;
         z-index: 1;
@@ -96,8 +96,8 @@ input[type="search"],
         max-height: 50px;
         line-height: 46px;
         a {
-            font-size: $main-font-size + 2px;
-            font-family: $main-font-family;
+            font-size: @main-font-size + 2px;
+            font-family: @main-font-family;
             &:hover {
                 background: #D32F2F;
                 border-bottom: 4px solid #FF5252;
@@ -116,9 +116,9 @@ input[type="search"],
     float: left;
     padding: 5px;
     font-size: 15px;
-    font-family: $ubuntu-font;
+    font-family: @ubuntu-font;
     margin-top: 10px;
-    border: 1px solid $white;
+    border: 1px solid @white;
     max-width: 100px;
     cursor: pointer;
     @media screen and (max-width: 768px) {
@@ -153,9 +153,9 @@ input[type="search"],
     margin-left: 0px;
     @media screen and (max-width: 768px) {
         float: none;
-        height: $max-size;
+        height: @max-size;
         min-height: 50px;
-        border: $dark-red;
+        border: @dark-red;
         -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
         box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
     }
@@ -166,7 +166,7 @@ input[type="search"],
     div>button {
         height: 34px;
         span {
-            font-size: $main-font-size + 2px;
+            font-size: @main-font-size + 2px;
             color: #808080;
         }
     }
@@ -182,18 +182,18 @@ input[type="search"],
     border-radius: 0%;
 }
 .busNumbers {
-    height: $max-size;
+    height: @max-size;
 }
 .busesReadingList,
 #footer {
     @include widthHeightSizes;
 }
 .busesReadingList {
-    font-family: $main-font-family;  
+    font-family: @main-font-family;  
 }
 .busNumbers,
 .busDestination {
-    font-size: $main-font-size + 2px;
+    font-size: @main-font-size + 2px;
 }
 .busesReadingList {   
     max-width: 450px;  
@@ -215,8 +215,8 @@ input[type="search"],
     max-height: 200px;
 }
 #footer {
-    font-family: $ubuntu-font;
-    background: $dark-red;
+    font-family: @ubuntu-font;
+    background: @dark-red;
     #footer-texts-container {
         max-width: 900px;
         margin: auto;
@@ -232,7 +232,7 @@ input[type="search"],
                 .footer-Buses,
                 .great-knollys-street,
                 .telephone-number {
-                    font-size: $main-font-size - 1px;
+                    font-size: @main-font-size - 1px;
                 }
                 .sitemap {
                     padding-right: 10px;
@@ -242,12 +242,12 @@ input[type="search"],
                 }
                 .footer-Reading {
                     font: {
-                        size: $main-font-size + 1px;
+                        size: @main-font-size + 1px;
                         weight: bold;
                     }
                 }
                 .footer-Buses {
-                    font-size: $main-font-size;
+                    font-size: @main-font-size;
                     color: #F7A600;
                 }
             }

@@ -105,8 +105,10 @@
     <Content Include="Images\France.png" />
     <Content Include="Images\Germany.png" />
     <Content Include="Images\Italy.png" />
+    <Content Include="Images\poster.jpg" />
+    <Content Include="Images\RB-logo.jpg" />
     <Content Include="Images\Spain.png" />
-    <Content Include="Images\UK.png" />
+    <Content Include="Images\UK.jpg" />
     <Content Include="Routes.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -138,9 +140,6 @@
     <Content Include="Images\advert2.jpg" />
     <Content Include="Images\background.gif" />
     <Content Include="Images\nATEDwhx.png" />
-    <Content Include="Images\open-day-web-hero-banner_555x185-may16.jpg" />
-    <Content Include="Images\poster.jpg" />
-    <Content Include="Images\purple 17 for route one.jpg" />
     <Content Include="Images\readingBuses.jpg" />
     <Content Include="Images\readingBusesLogo.gif" />
     <Content Include="Images\topSection.jpg" />
