@@ -28,6 +28,8 @@ body {
 }
 #top,
 #top img,
+#buses-search-bar div>button,
+input[type="search"],
 .buttons-menu>li,
 #footer-texts  {
     height: $max-size;
@@ -59,13 +61,14 @@ input[type="search"],
         max-height: 50px;
     }
     input[type="search"] {
+        max-height: 32px;
         max-width: 135px;
         box-shadow: inset 0px 3px 0px 0 rgba(0,0,0,0.1);
     }
     div>button {
-        height: 34px;
+        max-height: 32px;
         span {
-            font-size: $main-font-size + 2px;
+            font-size: $main-font-size;
             color: #808080;
         }
     }
