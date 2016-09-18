@@ -40,8 +40,7 @@ input[type="search"],
   #buses-search-bar input[type="search"] {
     max-width: 125px; }
   #buses-search-bar div > button span {
-    font-size: 16px;
-    color: #FFFFFF; }
+    font-size: 16px; }
 
 input[type="search"],
 #buses-search-bar div > button {
