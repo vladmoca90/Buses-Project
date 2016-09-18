@@ -10,4 +10,6 @@ app.controller("busesController", busesController)
     .controller("errorController", errorController)
     .config(routeSetup)
     .directive("titleDirective", titleDirective)
-    .directive("navDirective", navDirective);
+    .directive("navDirective", navDirective)
+    .service("busesService", busesService)
+    .service("translationService", translationService);
