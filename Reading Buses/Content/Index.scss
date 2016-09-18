@@ -11,7 +11,7 @@ $main-font-family: Alegreya Sans;
 $ubuntu-font: Ubuntu;
 $white: #FFFFFF;
 
-@mixin widthHeightSizes {
+@mixin max-width-height-sizes {
     width: 100%;
     height: 100%;
 }
@@ -27,20 +27,14 @@ body {
     background: $white;
 }
 #top,
-#top img,
 #buses-search-bar div>button,
-input[type="search"],
-.buttons-menu>li,
-#footer-texts  {
+.buttons-menu>li {
     height: $max-size;
 }
-#top img,
 #languages,
 #languages-list li img,
-input[type="search"],
 #poster,
-#poster>img,
-#footer-texts {
+#poster>img {
     width: $max-size;
 }
 #top {
@@ -174,9 +168,12 @@ input[type="search"],
 .busNumbers {
     height: $max-size;
 }
+#top img, 
+input[type="search"],
 .busesReadingList,
-#footer {
-    @include widthHeightSizes;
+#footer,
+#footer-texts {
+    @include max-width-height-sizes;
 }
 .busesReadingList {
     font-family: $main-font-family;  
@@ -213,8 +210,6 @@ input[type="search"],
         overflow: hidden;
         padding-top: 1.5%;
         #footer-texts {
-            float: left;
-            max-width: 400px;
             p {
                 padding: 1% 0% 0% 1.5%;
                 .sitemap,
@@ -243,4 +238,13 @@ input[type="search"],
             }
         }
     }
+}
+#footer-texts,
+#footer-icons {
+    float: left;
+    max-width: 400px;
+}
+#footer-icons>img {
+    max-width: 28px;
+    max-height: 28px;
 }
