@@ -201,6 +201,7 @@ input[type="search"],
   max-width: 400px; }
 
 #footer-icons > img {
-  max-width: 30px;
-  max-height: 30px; }
+  max-width: 35px;
+  max-height: 35px;
+  cursor: pointer; }
 
