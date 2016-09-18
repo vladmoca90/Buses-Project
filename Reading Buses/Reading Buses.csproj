@@ -209,6 +209,7 @@
       <DependentUpon>Index.es5.js</DependentUpon>
     </Content>
     <Content Include="scripts\Index.js" />
+    <Content Include="scripts\services\translationService.js" />
     <Content Include="scripts\templates\bus.html" />
     <Content Include="scripts\templates\buses.html" />
     <Content Include="scripts\services\busesService.js" />
