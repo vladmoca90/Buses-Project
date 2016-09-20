@@ -116,14 +116,17 @@ input[type="search"],
           #buttons-nav .buttons-menu a:hover {
             border-bottom: 0px; } }
 
+#languages,
+#footer-icons > img {
+  cursor: pointer; }
+
 #languages {
   float: left;
   padding: 5px;
   font-size: 15px;
   margin-top: 14px;
   border: 1px solid #FFFFFF;
-  max-width: 100px;
-  cursor: pointer; }
+  max-width: 100px; }
   @media screen and (max-width: 768px) {
     #languages {
       display: none; } }
@@ -212,6 +215,5 @@ input[type="search"],
 #footer-icons > img {
   max-width: 35px;
   max-height: 35px;
-  cursor: pointer;
   margin-left: 8px; }
 

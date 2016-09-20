@@ -143,6 +143,10 @@ input[type="search"],
         }
     }
 }
+#languages,
+#footer-icons>img {
+    cursor: pointer;
+}
 #languages {
     float: left;
     padding: 5px;
@@ -150,7 +154,6 @@ input[type="search"],
     margin-top: 14px;
     border: 1px solid $white;
     max-width: 100px;
-    cursor: pointer;
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -255,6 +258,5 @@ input[type="search"],
 #footer-icons>img {
     max-width: 35px;
     max-height: 35px;
-    cursor: pointer;
     margin-left: 8px;
 }
