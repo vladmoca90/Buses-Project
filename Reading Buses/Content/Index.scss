@@ -47,16 +47,14 @@ body {
 }
 #top,
 #buttons-nav .buttons-menu a,
+#languages,
+#footer,
 .busesReadingList {
     font-family: $main-font-family;
 }
 #buses-search-bar div>button span
 .footer-Buses {
     font-size: $main-font-size;
-}
-#languages,
-#footer {
-    font-family: $main-font-family;
 }
 #buses-search-bar {
     float: right;
