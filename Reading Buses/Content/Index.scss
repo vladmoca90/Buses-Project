@@ -121,6 +121,10 @@ input[type="search"],
 .buttons-menu a:hover {
     max-height: 60px;
 }
+.buttons-menu a,
+.footer-Reading {
+    font-size: $main-font-size + 1px;
+}
 #buttons-nav {
     margin: 0% 14.5%;
     @media screen and (max-width: 768px) {
@@ -129,7 +133,6 @@ input[type="search"],
     .buttons-menu {
         line-height: 60px;
         a {
-            font-size: $main-font-size + 1px;
             line-height: 30px;
             &:hover {
                 background: #D32F2F;
@@ -151,9 +154,16 @@ input[type="search"],
 #footer-icons {
     float: left;
 }
+#languages,
+.sitemap,
+.useful-links,
+.footer-Buses,
+.great-knollys-street,
+.telephone-number {
+    font-size: $main-font-size - 1px;
+}
 #languages {
     padding: 5px;
-    font-size: $main-font-size - 1px;
     margin-top: 14px;
     border: 1px solid $white;
     max-width: 100px;
@@ -226,13 +236,6 @@ input[type="search"],
         #footer-texts {
             p {
                 padding: 1% 0% 0% 1.5%;
-                .sitemap,
-                .useful-links,
-                .footer-Buses,
-                .great-knollys-street,
-                .telephone-number {
-                    font-size: $main-font-size - 1px;
-                }
                 .sitemap {
                     padding-right: 10px;
                 }
@@ -240,10 +243,7 @@ input[type="search"],
                     padding-left: 10px;
                 }
                 .footer-Reading {
-                    font: {
-                        size: $main-font-size + 1px;
-                        weight: bold;
-                    }
+                    font-weight: bold;
                 }
                 .footer-Buses {
                     color: #F7A600;

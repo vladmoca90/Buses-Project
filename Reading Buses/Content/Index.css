@@ -97,6 +97,10 @@ input[type="search"],
 .buttons-menu a:hover {
   max-height: 60px; }
 
+.buttons-menu a,
+.footer-Reading {
+  font-size: 17px; }
+
 #buttons-nav {
   margin: 0% 14.5%; }
   @media screen and (max-width: 768px) {
@@ -105,7 +109,6 @@ input[type="search"],
   #buttons-nav .buttons-menu {
     line-height: 60px; }
     #buttons-nav .buttons-menu a {
-      font-size: 17px;
       line-height: 30px; }
       #buttons-nav .buttons-menu a:hover {
         background: #D32F2F;
@@ -124,9 +127,16 @@ input[type="search"],
 #footer-icons {
   float: left; }
 
+#languages,
+.sitemap,
+.useful-links,
+.footer-Buses,
+.great-knollys-street,
+.telephone-number {
+  font-size: 15px; }
+
 #languages {
   padding: 5px;
-  font-size: 15px;
   margin-top: 14px;
   border: 1px solid #FFFFFF;
   max-width: 100px; }
@@ -193,18 +203,11 @@ input[type="search"],
   padding-top: 1.5%; }
   #footer #footer-container #footer-texts p {
     padding: 1% 0% 0% 1.5%; }
-    #footer #footer-container #footer-texts p .sitemap,
-    #footer #footer-container #footer-texts p .useful-links,
-    #footer #footer-container #footer-texts p .footer-Buses,
-    #footer #footer-container #footer-texts p .great-knollys-street,
-    #footer #footer-container #footer-texts p .telephone-number {
-      font-size: 15px; }
     #footer #footer-container #footer-texts p .sitemap {
       padding-right: 10px; }
     #footer #footer-container #footer-texts p .useful-links {
       padding-left: 10px; }
     #footer #footer-container #footer-texts p .footer-Reading {
-      font-size: 17px;
       font-weight: bold; }
     #footer #footer-container #footer-texts p .footer-Buses {
       color: #F7A600; }
