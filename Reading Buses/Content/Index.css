@@ -8,6 +8,7 @@ body {
 
 #top,
 #buses-search-bar div > button,
+#buttons-nav,
 .buttons-menu > li {
   height: 100%; }
 
@@ -81,7 +82,8 @@ input[type="search"],
       z-index: 1; } }
 
 #buttons-nav {
-  margin: 0% 16.5%; }
+  margin: 0% 16.5%;
+  max-height: 60px; }
   @media screen and (max-width: 768px) {
     #buttons-nav {
       margin: 0%; } }
