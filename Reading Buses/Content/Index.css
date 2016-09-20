@@ -8,8 +8,13 @@ body {
 
 #top,
 #buses-search-bar div > button,
+<<<<<<< HEAD
 #buttons-nav,
 .buttons-menu > li {
+=======
+.buttons-menu > li,
+.busNumbers {
+>>>>>>> master
   height: 100%; }
 
 #languages,
@@ -116,6 +121,8 @@ input[type="search"],
       display: none; } }
   #languages a {
     text-decoration: none; }
+    #languages a .caret-languages {
+      margin-left: 3px; }
 
 #languages-list {
   min-width: 100px !important;
@@ -134,9 +141,6 @@ input[type="search"],
       max-width: 20px;
       position: relative;
       top: 4px; }
-
-.busNumbers {
-  height: 100%; }
 
 #top img,
 input[type="search"],
@@ -169,33 +173,33 @@ input[type="search"],
   border: 5px solid #C62828; }
 
 #footer,
-#footer-texts-container {
+#footer-container {
   max-height: 200px; }
 
 #footer {
   font-family: Ubuntu;
   background: #C62828; }
-  #footer #footer-texts-container {
+  #footer #footer-container {
     max-width: 900px;
     margin: auto;
     overflow: hidden;
     padding-top: 1.5%; }
-    #footer #footer-texts-container #footer-texts p {
+    #footer #footer-container #footer-texts p {
       padding: 1% 0% 0% 1.5%; }
-      #footer #footer-texts-container #footer-texts p .sitemap,
-      #footer #footer-texts-container #footer-texts p .useful-links,
-      #footer #footer-texts-container #footer-texts p .footer-Buses,
-      #footer #footer-texts-container #footer-texts p .great-knollys-street,
-      #footer #footer-texts-container #footer-texts p .telephone-number {
+      #footer #footer-container #footer-texts p .sitemap,
+      #footer #footer-container #footer-texts p .useful-links,
+      #footer #footer-container #footer-texts p .footer-Buses,
+      #footer #footer-container #footer-texts p .great-knollys-street,
+      #footer #footer-container #footer-texts p .telephone-number {
         font-size: 15px; }
-      #footer #footer-texts-container #footer-texts p .sitemap {
+      #footer #footer-container #footer-texts p .sitemap {
         padding-right: 10px; }
-      #footer #footer-texts-container #footer-texts p .useful-links {
+      #footer #footer-container #footer-texts p .useful-links {
         padding-left: 10px; }
-      #footer #footer-texts-container #footer-texts p .footer-Reading {
+      #footer #footer-container #footer-texts p .footer-Reading {
         font-size: 17px;
         font-weight: bold; }
-      #footer #footer-texts-container #footer-texts p .footer-Buses {
+      #footer #footer-container #footer-texts p .footer-Buses {
         font-size: 16px;
         color: #F7A600; }
 
@@ -207,5 +211,6 @@ input[type="search"],
 #footer-icons > img {
   max-width: 35px;
   max-height: 35px;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-left: 8px; }
 

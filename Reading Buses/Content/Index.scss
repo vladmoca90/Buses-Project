@@ -28,8 +28,13 @@ body {
 }
 #top,
 #buses-search-bar div>button,
+<<<<<<< HEAD
 #buttons-nav,
 .buttons-menu>li {
+=======
+.buttons-menu>li,
+.busNumbers {
+>>>>>>> master
     height: $max-size;
 }
 #languages,
@@ -146,6 +151,9 @@ input[type="search"],
     }
     a {
         text-decoration: none;
+        .caret-languages {
+            margin-left: 3px;
+        }
     }
 }
 #languages-list {
@@ -168,9 +176,6 @@ input[type="search"],
             top: 4px;
         }
     }
-}
-.busNumbers {
-    height: $max-size;
 }
 #top img, 
 input[type="search"],
@@ -202,13 +207,13 @@ input[type="search"],
     border: 5px solid #C62828; 
 }
 #footer,
- #footer-texts-container {
+ #footer-container {
     max-height: 200px;
 }
 #footer {
     font-family: $ubuntu-font;
     background: $dark-red;
-    #footer-texts-container {
+    #footer-container {
         max-width: 900px;
         margin: auto;
         overflow: hidden;
@@ -252,4 +257,5 @@ input[type="search"],
     max-width: 35px;
     max-height: 35px;
     cursor: pointer;
+    margin-left: 8px;
 }

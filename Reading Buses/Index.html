@@ -71,21 +71,21 @@
                     <li role="menuitem" class="buttons-menu"><a role="link" href="#">About Us</a></li>
                     <li role="menuitem" class="buttons-menu"><a role="link" href="#">Offers</a></li>
                     <li role="menuitem" class="buttons-menu"><a role="link" href="#">Join Us</a></li>
-                    <li role="menuitem" class="buttons-menu"><a role="link" href="#">Jobs</a></li>
                     <li role="menuitem" class="buttons-menu"><a role="link" href="#">University</a></li>
                     <li role="menuitem" class="buttons-menu"><a role="link" href="#">Schools</a></li>
+                    <li role="menuitem" class="buttons-menu"><a role="link" href="#">Jobs</a></li>
                     <li role="menuitem" class="buttons-menu"><a role="link" href="#">Connections</a></li>
                     <li role="menuitem" class="buttons-menu"><a role="link" href="#">Contact</a></li>
                 </ul>
                 <div id="languages" class="dropdown" ng-controller="dropdownController">
-                    <a role="link" data-toggle="dropdown">Languages&nbsp;<span class="caret"></span></a>
+                    <a role="link" data-toggle="dropdown">Languages<span class="caret caret-languages"></span></a>
                     <ul role="list" id="languages-list" class="dropdown-menu list-unstyled">
                         <li role="listitem" ng-repeat="language in languagesMenu"><img ng-src="{{language.languageFlag}}" />&nbsp;{{language.languageName}}</li>
                     </ul>
                 </div>
             </div>
         </nav>
-</header>
+    </header>
     <section>
         <div id="poster">
             <img role="img" src="Images/poster.jpg" alt="Poster" title="Poster" />
@@ -93,7 +93,7 @@
         <div ng-view></div>
     </section>
     <footer role="contentinfo" id="footer">
-        <div id="footer-texts-container">
+        <div id="footer-container">
             <div id="footer-texts">
                 <p><span class="sitemap">Sitemap</span>|<span class="useful-links">Useful Links</span></p>
                 <p><span class="footer-Reading">Reading</span><span class="footer-Buses">Buses</span><span class="great-knollys-street"> - Great Knollys Street, Reading RG1 7HH</span></p>
