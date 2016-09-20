@@ -9,6 +9,7 @@ $dark-red: #C62828;
 $main-font-size: 16px;
 $main-font-family: Ubuntu;
 $white: #FFFFFF;
+$black: #000000;
 
 @mixin max-width-height-sizes {
     width: 100%;
@@ -212,7 +213,7 @@ input[type="search"],
     max-width: 450px;  
 }
 .busNumbers {
-    color: #000000;
+    color: $black;
 }
 .busDetails {
     margin-bottom: 0px !important;
