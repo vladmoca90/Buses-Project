@@ -120,6 +120,7 @@ input[type="search"],
         a {
             font-size: $main-font-size + 2px;
             font-family: $main-font-family;
+            line-height: 40px;
             &:hover {
                 background: #D32F2F;
                 border-bottom: 5px solid #FF5252;
