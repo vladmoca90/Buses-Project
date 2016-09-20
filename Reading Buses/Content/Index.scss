@@ -7,8 +7,7 @@
 $max-size: 100%;
 $dark-red: #C62828;
 $main-font-size: 16px;
-$main-font-family: Alegreya Sans;
-$ubuntu-font: Ubuntu;
+$main-font-family: Ubuntu;
 $white: #FFFFFF;
 
 @mixin max-width-height-sizes {
@@ -57,7 +56,7 @@ body {
 }
 #languages,
 #footer {
-    font-family: $ubuntu-font;
+    font-family: $main-font-family;
 }
 #buses-search-bar {
     float: right;
@@ -120,7 +119,7 @@ input[type="search"],
     }
 }
 #buttons-nav {
-    margin: 0% 15.5%;
+    margin: 0% 14.5%;
     max-height: 60px;
     @media screen and (max-width: 768px) {
         margin: 0%;
@@ -129,7 +128,7 @@ input[type="search"],
         max-height: 60px;
         line-height: 60px;
         a {
-            font-size: $main-font-size + 3px;
+            font-size: $main-font-size + 1px;
             line-height: 30px;
             &:hover {
                 background: #D32F2F;
