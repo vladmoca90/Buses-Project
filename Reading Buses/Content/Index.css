@@ -34,6 +34,10 @@ body {
 .footer-Buses {
   font-size: 16px; }
 
+#languages,
+#footer {
+  font-family: Ubuntu; }
+
 #buses-search-bar {
   float: right;
   margin: 1.3% 1% 0% 0%; }
@@ -112,7 +116,6 @@ input[type="search"],
   float: left;
   padding: 5px;
   font-size: 15px;
-  font-family: Ubuntu;
   margin-top: 14px;
   border: 1px solid #FFFFFF;
   max-width: 100px;
@@ -175,7 +178,6 @@ input[type="search"],
   max-height: 200px; }
 
 #footer {
-  font-family: Ubuntu;
   background: #C62828; }
   #footer #footer-container {
     max-width: 900px;
