@@ -198,13 +198,13 @@ input[type="search"],
     border: 5px solid #C62828; 
 }
 #footer,
- #footer-texts-container {
+ #footer-container {
     max-height: 200px;
 }
 #footer {
     font-family: $ubuntu-font;
     background: $dark-red;
-    #footer-texts-container {
+    #footer-container {
         max-width: 900px;
         margin: auto;
         overflow: hidden;
