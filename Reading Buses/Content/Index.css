@@ -33,6 +33,9 @@ body {
     #top-data p span {
       margin-left: 5px;
       margin-right: 5px; }
+      #top-data p span:hover {
+        text-decoration: underline;
+        color: #4040ea; }
 
 #top,
 #top-data,
@@ -131,6 +134,7 @@ input[type="search"],
           #buttons-nav .buttons-menu a:hover {
             border-bottom: 0px; } }
 
+#top-data > p > span:hover,
 #languages,
 #footer-icons > img {
   cursor: pointer; }
