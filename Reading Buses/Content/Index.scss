@@ -41,11 +41,15 @@ body {
 }
 #top {
     max-height: 70px;
-    font-family: $main-font-family;
     img {
         max-width: 300px;
         max-height: 70px;
     }
+}
+#top,
+#buttons-nav .buttons-menu a,
+.busesReadingList {
+    font-family: $main-font-family;
 }
 #buses-search-bar {
     float: right;
@@ -120,7 +124,6 @@ input[type="search"],
         line-height: 60px;
         a {
             font-size: $main-font-size + 3px;
-            font-family: $main-font-family;
             line-height: 30px;
             &:hover {
                 background: #D32F2F;
@@ -179,9 +182,6 @@ input[type="search"],
 #footer,
 #footer-texts {
     @include max-width-height-sizes;
-}
-.busesReadingList {
-    font-family: $main-font-family;  
 }
 .busNumbers,
 .busDestination {
