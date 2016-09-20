@@ -38,12 +38,12 @@ body {
 #poster>img {
     width: $max-size;
 }
-#top {
+#top,
+#top img {
     max-height: 70px;
-    img {
-        max-width: 300px;
-        max-height: 70px;
-    }
+}
+#top img {
+    max-width: 300px;
 }
 #top,
 #buttons-nav .buttons-menu a,
