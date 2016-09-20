@@ -113,6 +113,8 @@ input[type="search"],
       display: none; } }
   #languages a {
     text-decoration: none; }
+    #languages a .caret-languages {
+      margin-left: 3px; }
 
 #languages-list {
   min-width: 100px !important;
