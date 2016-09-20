@@ -83,14 +83,16 @@ input[type="search"],
 .entire-button-menu {
   border: #C62828 !important; }
 
-.entire-button-menu {
+.entire-button-menu,
+#footer {
   background: #C62828; }
-  @media screen and (max-width: 768px) {
-    .entire-button-menu {
-      width: 100%;
-      padding-left: 0px !important;
-      position: absolute;
-      z-index: 1; } }
+
+@media screen and (max-width: 768px) {
+  .entire-button-menu {
+    width: 100%;
+    padding-left: 0px !important;
+    position: absolute;
+    z-index: 1; } }
 
 #buttons-nav {
   margin: 0% 15.5%;
@@ -177,30 +179,28 @@ input[type="search"],
 #footer-container {
   max-height: 200px; }
 
-#footer {
-  background: #C62828; }
-  #footer #footer-container {
-    max-width: 900px;
-    margin: auto;
-    overflow: hidden;
-    padding-top: 1.5%; }
-    #footer #footer-container #footer-texts p {
-      padding: 1% 0% 0% 1.5%; }
-      #footer #footer-container #footer-texts p .sitemap,
-      #footer #footer-container #footer-texts p .useful-links,
-      #footer #footer-container #footer-texts p .footer-Buses,
-      #footer #footer-container #footer-texts p .great-knollys-street,
-      #footer #footer-container #footer-texts p .telephone-number {
-        font-size: 15px; }
-      #footer #footer-container #footer-texts p .sitemap {
-        padding-right: 10px; }
-      #footer #footer-container #footer-texts p .useful-links {
-        padding-left: 10px; }
-      #footer #footer-container #footer-texts p .footer-Reading {
-        font-size: 17px;
-        font-weight: bold; }
-      #footer #footer-container #footer-texts p .footer-Buses {
-        color: #F7A600; }
+#footer #footer-container {
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 1.5%; }
+  #footer #footer-container #footer-texts p {
+    padding: 1% 0% 0% 1.5%; }
+    #footer #footer-container #footer-texts p .sitemap,
+    #footer #footer-container #footer-texts p .useful-links,
+    #footer #footer-container #footer-texts p .footer-Buses,
+    #footer #footer-container #footer-texts p .great-knollys-street,
+    #footer #footer-container #footer-texts p .telephone-number {
+      font-size: 15px; }
+    #footer #footer-container #footer-texts p .sitemap {
+      padding-right: 10px; }
+    #footer #footer-container #footer-texts p .useful-links {
+      padding-left: 10px; }
+    #footer #footer-container #footer-texts p .footer-Reading {
+      font-size: 17px;
+      font-weight: bold; }
+    #footer #footer-container #footer-texts p .footer-Buses {
+      color: #F7A600; }
 
 #footer-texts,
 #footer-icons {

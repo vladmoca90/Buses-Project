@@ -107,8 +107,11 @@ input[type="search"],
 .entire-button-menu {
     border: $dark-red !important;
 }
-.entire-button-menu {
+.entire-button-menu,
+#footer {
     background: $dark-red;
+}
+.entire-button-menu {
     @media screen and (max-width: 768px) {
         width: $max-size;
         padding-left: 0px !important;
@@ -209,7 +212,6 @@ input[type="search"],
     max-height: 200px;
 }
 #footer {
-    background: $dark-red;
     #footer-container {
         max-width: 900px;
         margin: auto;
