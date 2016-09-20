@@ -28,7 +28,8 @@ body {
 }
 #top,
 #buses-search-bar div>button,
-.buttons-menu>li {
+.buttons-menu>li,
+.busNumbers {
     height: $max-size;
 }
 #languages,
@@ -164,9 +165,6 @@ input[type="search"],
             top: 4px;
         }
     }
-}
-.busNumbers {
-    height: $max-size;
 }
 #top img, 
 input[type="search"],

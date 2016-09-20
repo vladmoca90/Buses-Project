@@ -8,7 +8,8 @@ body {
 
 #top,
 #buses-search-bar div > button,
-.buttons-menu > li {
+.buttons-menu > li,
+.busNumbers {
   height: 100%; }
 
 #languages,
@@ -130,9 +131,6 @@ input[type="search"],
       max-width: 20px;
       position: relative;
       top: 4px; }
-
-.busNumbers {
-  height: 100%; }
 
 #top img,
 input[type="search"],
