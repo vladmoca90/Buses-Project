@@ -203,5 +203,6 @@ input[type="search"],
 #footer-icons > img {
   max-width: 35px;
   max-height: 35px;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-left: 8px; }
 
