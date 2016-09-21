@@ -206,10 +206,10 @@ input[type="search"],
 
 #footer,
 #footer-container {
-  max-height: 170px; }
+  max-height: 175px; }
 
 #footer #footer-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   overflow: hidden;
   padding-top: 1.5%; }
