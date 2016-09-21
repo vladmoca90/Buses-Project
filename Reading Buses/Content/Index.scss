@@ -65,7 +65,8 @@ top-data p,
     font-size: $main-font-size;
 }
 #top-data,
-#buses-search-bar {
+#buses-search-bar,
+#footer-icons {
     float: right;
 }
 #buses-search-bar {
@@ -162,8 +163,7 @@ input[type="search"],
 }
 #languages,
 #languages-list li img,
-#footer-texts,
-#footer-icons {
+#footer-texts {
     float: left;
 }
 #languages,
