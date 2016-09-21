@@ -55,7 +55,7 @@ top-data p,
       height: 100%;
       max-height: 50px; } }
   #buses-search-bar input[type="search"] {
-    max-width: 125px; }
+    max-width: 130px; }
 
 input[type="search"],
 #buses-search-bar div > button {
@@ -166,11 +166,11 @@ input[type="search"],
   border-radius: 0px !important;
   left: -1px;
   margin-top: 1px;
-  border: 1px solid #CCC; }
+  border: 1px solid #CCCCCC; }
   #languages-list li {
     margin-top: 4px; }
     #languages-list li:hover {
-      background: #f2f1f1; }
+      background: #F2F1F1; }
     #languages-list li img {
       margin: 0px 5px 0px 10px;
       max-width: 20px;
