@@ -50,14 +50,6 @@ body {
     margin-top: 1.7%;
     p {
         display: inline;
-        span {
-            margin-left: 4px;
-            margin-right: 4px;
-            &:hover {
-                text-decoration: underline;
-                color: #4040ea;
-            }
-               
         }
     }
 }
