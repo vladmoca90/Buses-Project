@@ -224,12 +224,13 @@ input[type="search"],
     #footer #footer-container #footer-texts p .footer-Buses {
       color: #F7A600; }
 
-#footer-texts,
-#footer-icons {
+#footer-texts {
   max-width: 400px; }
 
-#footer-icons h4 {
-  text-align: center; }
+#footer-icons {
+  max-width: 350px; }
+  #footer-icons h4 {
+    text-align: center; }
 
 #icons-box > img {
   max-width: 35px;
