@@ -30,12 +30,6 @@ body {
   margin-top: 1.7%; }
   #top-data p {
     display: inline; }
-    #top-data p span {
-      margin-left: 4px;
-      margin-right: 4px; }
-      #top-data p span:hover {
-        text-decoration: underline;
-        color: #4040ea; }
 
 #top,
 #top-data,
