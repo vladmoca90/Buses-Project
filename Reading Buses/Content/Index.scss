@@ -44,19 +44,30 @@ body {
 #top img {
     max-width: 300px;
 }
+#top-data {
+    margin-top: 1.75%;
+    p {
+        display: inline;
+    }
+}
 #top,
+#top-data,
 #buttons-nav .buttons-menu a,
 #languages,
 #footer,
 .busesReadingList {
     font-family: $main-font-family;
 }
+top-data p,
 #buses-search-bar div>button span
 .footer-Buses {
     font-size: $main-font-size;
 }
+#top-data,
 #buses-search-bar {
     float: right;
+}
+#buses-search-bar {
     margin: 1.3% 1% 0% 0%;
     @media screen and (max-width: 768px) {
         height: $max-size;
@@ -143,6 +154,7 @@ input[type="search"],
         }
     }
 }
+#top-data>p>span:hover,
 #languages,
 #footer-icons>img {
     cursor: pointer;
