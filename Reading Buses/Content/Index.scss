@@ -268,8 +268,13 @@ input[type="search"],
 #footer-icons {
     max-width: 400px;
 }
-#footer-icons>img {
-    max-width: 35px;
-    max-height: 35px;
-    margin-left: 8px;
+#footer-icons {
+    h4 {
+        text-align: center;
+    }
+    img {
+        max-width: 35px;
+        max-height: 35px;
+        margin-left: 8px;
+    }
 }
