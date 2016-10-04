@@ -239,11 +239,10 @@ input[type="search"],
 
 #followUs-section {
   margin-top: 5%; }
-
-#icons-box {
-  max-width: 235px; }
-  #icons-box img {
-    max-width: 35px;
-    max-height: 35px;
-    margin-left: 3.5%; }
+  #followUs-section #icons-box {
+    max-width: 235px; }
+    #followUs-section #icons-box img {
+      max-width: 35px;
+      max-height: 35px;
+      margin-left: 3.5%; }
 
