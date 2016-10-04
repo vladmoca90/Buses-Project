@@ -273,8 +273,11 @@ input[type="search"],
         text-align: center;
     }
 }
-#icons-box>img {
-    max-width: 35px;
-    max-height: 35px;
-    margin-left: 3.5%;
+#icons-box {
+
+    img {
+        max-width: 35px;
+        max-height: 35px;
+        margin-left: 3.5%;
+    }
 }
