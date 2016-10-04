@@ -237,6 +237,9 @@ input[type="search"],
     margin-top: 4px;
     text-align: center; }
 
+#followUs-section {
+  margin-top: 5%; }
+
 #icons-box {
   max-width: 235px; }
   #icons-box img {
