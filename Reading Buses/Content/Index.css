@@ -15,7 +15,8 @@ body {
 #languages,
 #languages-list li img,
 #poster,
-#poster > img {
+#poster > img,
+#icons-box {
   width: 100%; }
 
 #top,
@@ -232,8 +233,11 @@ input[type="search"],
   #footer-icons h4 {
     text-align: center; }
 
-#icons-box img {
-  max-width: 35px;
-  max-height: 35px;
-  margin-left: 3.5%; }
+#icons-box {
+  max-width: 265px;
+  margin: auto; }
+  #icons-box img {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 3.5%; }
 

@@ -34,7 +34,8 @@ body {
 #languages,
 #languages-list li img,
 #poster,
-#poster>img {
+#poster>img,
+#icons-box {
     width: $max-size;
 }
 #top,
@@ -274,7 +275,8 @@ input[type="search"],
     }
 }
 #icons-box {
-
+    max-width: 265px;
+    margin: auto;
     img {
         max-width: 35px;
         max-height: 35px;
