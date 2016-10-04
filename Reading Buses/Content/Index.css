@@ -234,6 +234,7 @@ input[type="search"],
 #footer-icons {
   max-width: 350px; }
   #footer-icons h4 {
+    margin-top: 4px;
     text-align: center; }
 
 #icons-box {
