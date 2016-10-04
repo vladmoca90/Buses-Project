@@ -240,10 +240,13 @@ input[type="search"],
  #footer-container {
     max-height: 175px;
 }
+#footer-container,
+#icons-box {
+    margin: auto;
+}
 #footer {
     #footer-container {
         max-width: 1200px;
-        margin: auto;
         overflow: hidden;
         padding-top: 1%;
         #footer-texts {
@@ -276,7 +279,6 @@ input[type="search"],
 }
 #icons-box {
     max-width: 235px;
-    margin: auto;
     img {
         max-width: 35px;
         max-height: 35px;

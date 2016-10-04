@@ -209,9 +209,12 @@ input[type="search"],
 #footer-container {
   max-height: 175px; }
 
+#footer-container,
+#icons-box {
+  margin: auto; }
+
 #footer #footer-container {
   max-width: 1200px;
-  margin: auto;
   overflow: hidden;
   padding-top: 1%; }
   #footer #footer-container #footer-texts p {
@@ -234,8 +237,7 @@ input[type="search"],
     text-align: center; }
 
 #icons-box {
-  max-width: 235px;
-  margin: auto; }
+  max-width: 235px; }
   #icons-box img {
     max-width: 35px;
     max-height: 35px;
