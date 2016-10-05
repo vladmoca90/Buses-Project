@@ -47,8 +47,7 @@ top-data p,
   font-size: 16px; }
 
 #top-data,
-#buses-search-bar,
-#footer-icons {
+#buses-search-bar {
   float: right; }
 
 #buses-search-bar {
