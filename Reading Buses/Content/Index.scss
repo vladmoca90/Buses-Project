@@ -34,7 +34,9 @@ body {
 #languages,
 #languages-list li img,
 #poster,
-#poster>img {
+#poster>img,
+#footer-middle,
+#icons-box {
     width: $max-size;
 }
 #top,
@@ -55,7 +57,8 @@ body {
 #buttons-nav .buttons-menu a,
 #languages,
 #footer,
-.busesReadingList {
+.busesReadingList
+#footer-icons h4 {
     font-family: $main-font-family;
 }
 top-data p,
@@ -64,7 +67,8 @@ top-data p,
     font-size: $main-font-size;
 }
 #top-data,
-#buses-search-bar {
+#buses-search-bar,
+#footer-icons {
     float: right;
 }
 #buses-search-bar {
@@ -162,6 +166,8 @@ input[type="search"],
 #languages,
 #languages-list li img,
 #footer-texts,
+#footer-middle,
+.footer-middle-list,
 #footer-icons {
     float: left;
 }
@@ -236,17 +242,30 @@ input[type="search"],
 }
 #footer,
  #footer-container {
+<<<<<<< HEAD
     max-height: 170px;
 }
 #footer {
     #footer-container {
         max-width: 1200px;
         margin: auto;
+=======
+    max-height: 175px;
+}
+#footer-container,
+#icons-box {
+    margin: auto;
+}
+#footer {
+    #footer-container {
+        max-width: 1165px;
+>>>>>>> footerSection
         overflow: hidden;
-        padding-top: 1.5%;
+        padding-top: 1%;
         #footer-texts {
+            max-width: 385px;
             p {
-                padding: 1% 0% 0% 1.5%;
+                padding: 1% 0% 0% 1%;
                 .sitemap {
                     padding-right: 10px;
                 }
@@ -263,12 +282,36 @@ input[type="search"],
         }
     }
 }
-#footer-texts,
-#footer-icons {
-    max-width: 400px;
+#footer-middle {
+    max-width: 420px;
+    .footer-middle-list {
+        margin-left: 10%;
+        li {
+            margin-top: 3%;
+            a {
+                color: $white;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }
-#footer-icons>img {
-    max-width: 35px;
-    max-height: 35px;
-    margin-left: 8px;
+#footer-icons {
+    max-width: 350px;
+    h4 {
+        margin-top: 4px;
+        text-align: center;
+    }
+}
+#followUs-section {
+    margin-top: 5%;
+    #icons-box {
+        max-width: 235px;
+        img {
+            max-width: 35px;
+            max-height: 35px;
+            margin-left: 3.5%;
+        }
+    }
 }
