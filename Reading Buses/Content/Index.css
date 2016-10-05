@@ -221,19 +221,18 @@ input[type="search"],
   max-width: 1200px;
   overflow: hidden;
   padding-top: 1%; }
-  #footer #footer-container #footer-texts p {
-    padding: 1% 0% 0% 1.5%; }
-    #footer #footer-container #footer-texts p .sitemap {
-      padding-right: 10px; }
-    #footer #footer-container #footer-texts p .useful-links {
-      padding-left: 10px; }
-    #footer #footer-container #footer-texts p .footer-Reading {
-      font-weight: bold; }
-    #footer #footer-container #footer-texts p .footer-Buses {
-      color: #F7A600; }
-
-#footer-texts {
-  max-width: 385px; }
+  #footer #footer-container #footer-texts {
+    max-width: 385px; }
+    #footer #footer-container #footer-texts p {
+      padding: 1% 0% 0% 1.5%; }
+      #footer #footer-container #footer-texts p .sitemap {
+        padding-right: 10px; }
+      #footer #footer-container #footer-texts p .useful-links {
+        padding-left: 10px; }
+      #footer #footer-container #footer-texts p .footer-Reading {
+        font-weight: bold; }
+      #footer #footer-container #footer-texts p .footer-Buses {
+        color: #F7A600; }
 
 #footer-middle {
   max-width: 420px; }
