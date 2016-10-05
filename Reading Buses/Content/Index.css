@@ -16,6 +16,7 @@ body {
 #languages-list li img,
 #poster,
 #poster > img,
+#footer-middle,
 #icons-box {
   width: 100%; }
 
@@ -232,6 +233,9 @@ input[type="search"],
 
 #footer-texts {
   max-width: 385px; }
+
+#footer-middle {
+  max-width: 550px; }
 
 #footer-icons {
   max-width: 350px; }
