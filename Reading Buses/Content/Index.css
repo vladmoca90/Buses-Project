@@ -140,7 +140,7 @@ input[type="search"],
 #languages-list li img,
 #footer-texts,
 #footer-middle,
-footer-middle-list,
+.footer-middle-list,
 #footer-icons {
   float: left; }
 
