@@ -242,12 +242,14 @@ input[type="search"],
   max-width: 420px; }
   #footer-middle .footer-middle-list {
     margin-left: 10%; }
-    #footer-middle .footer-middle-list li {
-      margin-top: 3%; }
-      #footer-middle .footer-middle-list li a {
-        color: #FFFFFF; }
-        #footer-middle .footer-middle-list li a:hover {
-          cursor: pointer; }
+    #footer-middle .footer-middle-list li > a {
+      color: #FFFFFF; }
+      #footer-middle .footer-middle-list li > a:hover {
+        cursor: pointer; }
+
+.footer-middle-list > li,
+#followUs-section {
+  margin-top: 3%; }
 
 #footer-icons {
   max-width: 350px; }
@@ -255,12 +257,10 @@ input[type="search"],
     margin-top: 4px;
     text-align: center; }
 
-#followUs-section {
-  margin-top: 5%; }
-  #followUs-section #icons-box {
-    max-width: 235px; }
-    #followUs-section #icons-box img {
-      max-width: 35px;
-      max-height: 35px;
-      margin-left: 3.5%; }
+#followUs-section #icons-box {
+  max-width: 235px; }
+  #followUs-section #icons-box img {
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: 3.5%; }
 
