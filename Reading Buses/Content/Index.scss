@@ -219,6 +219,9 @@ input[type="search"],
 #footer-texts {
     @include max-width-height-sizes;
 }
+#poster {
+    background: url('../Images/poster.jpg') no-repeat;
+}
 .busNumbers,
 .busDestination {
     font-size: $main-font-size + 2px;
