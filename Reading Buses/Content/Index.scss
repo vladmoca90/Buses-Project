@@ -221,8 +221,9 @@ input[type="search"],
     @include max-width-height-sizes;
 }
 #poster {
-    max-height: 530px;
-    background: url('../Images/poster.jpg') no-repeat;
+    max-height: 550px;
+    background: url('../Images/poster.jpg') no-repeat fixed;
+    background-size: cover;
 }
 .busNumbers,
 .busDestination {
