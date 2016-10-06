@@ -194,7 +194,6 @@ input[type="search"],
   background-image: url("../Images/poster.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover; }
 
 .busNumbers,
