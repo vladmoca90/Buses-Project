@@ -29,12 +29,12 @@
 <body ng-app="myApp">
 
 <div class="busesReadingList" ng-controller="busesController">
-<table class="table table-bordered busDetails">
-<tr ng-repeat="busList in busList">
-<td class="busesNumbers text-center" ng-bind="busList.number"></td>
-<td class="busDestination">{{busList.start}} - {{busList.end}}</td>
-</tr>
-</table>
+    <table class="table table-bordered busDetails">
+        <tr ng-repeat="busList in busList">
+            <td class="busesNumbers text-center" ng-bind="busList.number"></td>
+            <td class="busDestination">{{busList.start}} - {{busList.end}}</td>
+        </tr>
+    </table>
 </div>
 
 </body>
