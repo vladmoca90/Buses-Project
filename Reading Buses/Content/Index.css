@@ -9,6 +9,7 @@ body {
 #buses-search-bar div > button,
 #buttons-nav,
 .buttons-menu > li,
+#poster,
 .busNumbers {
   height: 100%; }
 
@@ -189,6 +190,7 @@ input[type="search"],
   height: 100%; }
 
 #poster {
+  max-height: 530px;
   background: url("../Images/poster.jpg") no-repeat; }
 
 .busNumbers,

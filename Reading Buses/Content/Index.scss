@@ -28,6 +28,7 @@ body {
 #buses-search-bar div>button,
 #buttons-nav,
 .buttons-menu>li,
+#poster,
 .busNumbers {
     height: $max-size;
 }
@@ -220,6 +221,7 @@ input[type="search"],
     @include max-width-height-sizes;
 }
 #poster {
+    max-height: 530px;
     background: url('../Images/poster.jpg') no-repeat;
 }
 .busNumbers,
