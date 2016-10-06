@@ -157,7 +157,6 @@
     <Content Include="Images\TescoDepot.jpg" />
     <Content Include="Images\twitter.png" />
     <Content Include="Images\UK.jpg" />
-    <Content Include="Routes.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
