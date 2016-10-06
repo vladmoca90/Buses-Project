@@ -27,74 +27,15 @@
 
 </head>
 <body ng-app="myApp">
-    <header>
-        <div class="container entirePageContainer">
-            <nav role="navigation" class="navbar buttonNavbar">
-                <div class="navbar-header headerNavbar">
-                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbarToggleButton">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand navbarImage"><img src="Pictures/readingBusesLogo.gif" title="Logo" alt="Logo" /></a>
-                </div>
-                <div id="navbarCollapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navProperties">
-                        <li class="navigationButtons"><a href="Index.html">Home</a></li>
-                        <li class="navigationButtons"><a href="Routes.html">Routes</a></li>
-                        <li class="navigationButtons"><a href="#">Fares and tickets</a></li>
-                        <li class="navigationButtons"><a href="#">Offers</a></li>
-                        <li class="navigationButtons"><a href="#">Jobs</a></li>
-                        <li class="navigationButtons"><a href="#">About us</a></li>
-                        <li class="navigationButtons"><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <section>
-        <div id="poster">
-            <div class="panel panel-default planAJourney">
-                <div class="panel-heading text-center text-uppercase planAJourneyTitle">Plan a Journey</div>
-                <div class="panel-body journey-form-body">
-                    <div id="top-form-container">
-                        <div class="top-form"><a href="#">New</a></div>
-                        <div class="top-form top-form-margin"><a href="#">My Journey</a></div>
-                        <div class="top-form top-form-margin"><a href="#">Recents</a></div>
-                    </div>
-                    <form role="form" class="form-horizontal journey-form">
-                        <div class="form-group to-from">
-                            <label for="from">From:</label>
-                            <input type="text" class="form-control" id="from" placeholder="From" />
-                        </div>
-                        <div class="form-group to-from">
-                            <label for="to">To:</label>
-                            <input type="text" class="form-control" id="to" placeholder="To" />
-                        </div>
-                        <div class="form-group departReturn depart">
-                            <label for="dprt">Depart:</label>
-                            <input type="date" class="form-control" id="usr" />
-                        </div>
-                        <div class="form-group departReturn return">
-                            <label for="rtrn">Return:</label>
-                            <input type="date" class="form-control" id="pwd" />
-                        </div>
-                    </form>
-                    <p class="journey-preferences"><strong>Leaving:</strong> now <a href="#">Change times</a>&nbsp;&nbsp;<strong>></strong></p>
-                    <p class="journey-preferences"><a href="#">Edit preferences:</a>&nbsp;&nbsp;<strong>></strong></p>
-                    <button type="submit" class="btn btn-default departReturnButton text-uppercase">Search route</button>
-                </div>
-            </div>
-        </div>
-            <div class="rightSide">
-                <div class="busesReadingList" ng-controller="busesController">
-                    <table class="table table-bordered busDetails">
-                        <tr ng-repeat="busList in busList">
-                            <td class="busesNumbers text-center" ng-bind="busList.number"></td>
-                            <td class="busDestination">{{busList.start}} - {{busList.end}}</td>
-                        </tr>
-                    </table>
-                </div>
+
+<div class="busesReadingList" ng-controller="busesController">
+<table class="table table-bordered busDetails">
+<tr ng-repeat="busList in busList">
+<td class="busesNumbers text-center" ng-bind="busList.number"></td>
+<td class="busDestination">{{busList.start}} - {{busList.end}}</td>
+</tr>
+</table>
+</div>
+
 </body>
 </html>
