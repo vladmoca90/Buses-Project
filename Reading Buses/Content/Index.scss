@@ -149,6 +149,10 @@ input[type="search"],
             line-height: 30px;
             &:hover {
                 background: #D32F2F;
+                transition: background 0.4s ease-out;
+                -webkit-transition: background 0.4s ease-out;
+                -moz-transition: background 0.4s ease-out;
+                -o-transition: background 0.4s ease-out;
                 border-bottom: 5px solid #FF5252;
                 @media screen and (max-width: 768px) {
                     border-bottom: 0px;
