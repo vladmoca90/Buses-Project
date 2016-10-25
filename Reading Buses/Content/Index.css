@@ -125,10 +125,6 @@ input[type="search"],
       line-height: 30px; }
       #buttons-nav .buttons-menu a:hover {
         background: #D32F2F;
-        transition: all 0.3s ease-out;
-        -webkit-transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
-        -o-transition: all 0.3s ease-out;
         border-bottom: 5px solid #FF5252; }
         @media screen and (max-width: 768px) {
           #buttons-nav .buttons-menu a:hover {
