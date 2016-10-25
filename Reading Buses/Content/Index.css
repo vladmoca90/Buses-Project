@@ -269,4 +269,6 @@ input[type="search"],
     max-width: 35px;
     max-height: 35px;
     margin-left: 3.5%; }
+    #followUs-section #icons-box img:hover {
+      cursor: pointer; }
 
