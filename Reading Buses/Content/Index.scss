@@ -283,15 +283,16 @@ input[type="search"],
         }
     }
 }
+.footer-middle-list li>a:hover,
+#icons-box img:hover {
+    cursor: pointer;
+}
 #footer-middle {
     max-width: 420px;
     .footer-middle-list {
         margin-left: 10%;
         li>a {
             color: $white;
-            &:hover {
-                cursor: pointer;
-            }
         }
     }
 }
@@ -313,9 +314,6 @@ input[type="search"],
             max-width: 35px;
             max-height: 35px;
             margin-left: 3.5%;
-            &:hover {
-                cursor: pointer;
-            }
         }
     }
 }
