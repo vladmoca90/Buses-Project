@@ -222,11 +222,6 @@ input[type="search"],
 #footer-container {
   max-height: 170px; }
 
-#footer #footer-container {
-  max-width: 1200px;
-  margin: auto;
-  max-height: 170px; }
-
 #footer-container,
 #icons-box {
   margin: auto; }
@@ -234,7 +229,8 @@ input[type="search"],
 #footer #footer-container {
   max-width: 1165px;
   overflow: hidden;
-  padding-top: 1%; }
+  padding-top: 1%;
+  max-height: 170px; }
   #footer #footer-container #footer-texts {
     max-width: 385px; }
     #footer #footer-container #footer-texts p {

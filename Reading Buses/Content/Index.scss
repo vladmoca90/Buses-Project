@@ -253,13 +253,6 @@ input[type="search"],
  #footer-container {
     max-height: 170px;
 }
-#footer {
-    #footer-container {
-        max-width: 1200px;
-        margin: auto;
-        max-height: 170px;
-    }
-}
 #footer-container,
 #icons-box {
     margin: auto;
@@ -269,6 +262,7 @@ input[type="search"],
         max-width: 1165px;
         overflow: hidden;
         padding-top: 1%;
+        max-height: 170px;
         #footer-texts {
             max-width: 385px;
             p {
