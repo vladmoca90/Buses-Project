@@ -231,9 +231,6 @@ input[type="search"],
 .busDestination {
     font-size: $main-font-size + 2px;
 }
-.busesReadingList {   
-    max-width: 450px;  
-}
 .busNumbers {
     color: $black;
 }
@@ -241,10 +238,11 @@ input[type="search"],
     margin-bottom: 0px !important;
 }
 .busesReadingList {  
+    max-width: 450px; 
     max-height: 250px;
     overflow-y: scroll;
     margin: 2% 0%;
-    border: 5px solid #C62828; 
+    border: 2px solid #CCCCCC; 
 }
 #footer,
  #footer-container {
