@@ -208,8 +208,11 @@ input[type="search"],
     .busesReadingList .busDetails .busNumbers,
     .busesReadingList .busDetails .busDestination {
       font-size: 18px; }
-    .busesReadingList .busDetails .busNumbers {
+    .busesReadingList .busDetails .busNumbers > a {
       color: #000000; }
+      .busesReadingList .busDetails .busNumbers > a:hover {
+        text-decoration: none;
+        cursor: pointer; }
 
 #footer,
 #footer-container {

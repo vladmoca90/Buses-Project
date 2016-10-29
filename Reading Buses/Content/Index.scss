@@ -239,8 +239,12 @@ input[type="search"],
         .busDestination {
             font-size: $main-font-size + 2px;
         }
-        .busNumbers {
+        .busNumbers>a {
             color: $black;
+            &:hover {
+                text-decoration: none;
+                cursor: pointer;
+            }
         }
     }
 }
