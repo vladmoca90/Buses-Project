@@ -134,6 +134,9 @@ top-data p,
 .buttons-menu,
 .buttons-menu a:hover {
     max-height: 60px;
+    @media screen and (max-width: 768px) {
+        max-height: 100%;
+    }
 }
 .buttons-menu a,
 .footer-Reading {
