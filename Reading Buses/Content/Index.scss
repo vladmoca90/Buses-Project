@@ -126,6 +126,7 @@ top-data p,
     @media screen and (max-width: 768px) {
         width: $max-size;
         padding-left: 0px !important;
+        padding-right: 0px !important;
         position: absolute;
         z-index: 1;
     }
