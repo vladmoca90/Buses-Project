@@ -236,6 +236,10 @@ input[type="search"],
   overflow-y: scroll;
   margin: 2% 0%;
   border: 2px solid #CCCCCC; }
+  @media screen and (max-width: 768px) {
+    .busesReadingList {
+      margin: auto;
+      float: none; } }
   .busesReadingList .busDetails {
     margin-bottom: 0px !important; }
     .busesReadingList .busDetails .busNumbers,
