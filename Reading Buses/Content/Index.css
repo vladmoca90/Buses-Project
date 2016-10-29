@@ -197,13 +197,6 @@ input[type="search"],
   background-repeat: no-repeat;
   background-size: 100% 100%; }
 
-.busNumbers,
-.busDestination {
-  font-size: 18px; }
-
-.busNumbers {
-  color: #000000; }
-
 .busesReadingList {
   max-width: 450px;
   max-height: 250px;
@@ -212,6 +205,11 @@ input[type="search"],
   border: 2px solid #CCCCCC; }
   .busesReadingList .busDetails {
     margin-bottom: 0px !important; }
+    .busesReadingList .busDetails .busNumbers,
+    .busesReadingList .busDetails .busDestination {
+      font-size: 18px; }
+    .busesReadingList .busDetails .busNumbers {
+      color: #000000; }
 
 #footer,
 #footer-container {
