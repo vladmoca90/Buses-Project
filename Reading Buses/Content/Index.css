@@ -170,7 +170,7 @@ top-data p,
   margin-top: 14px;
   border: 1px solid #FFFFFF;
   max-width: 100px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     #languages {
       display: none; } }
   #languages a {
