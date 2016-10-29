@@ -73,16 +73,18 @@ top-data p,
 .footer-middle-list li > a {
   color: #FFFFFF; }
 
+#navigation-menu,
+#button-toggle:hover,
+#button-toggle:focus {
+  background: #C62828 !important; }
+
 #navigation-menu {
   margin-bottom: 0px;
   border-radius: 0px !important;
-  min-height: 60px !important;
-  background: #C62828 !important; }
+  min-height: 60px !important; }
   #navigation-menu #button-toggle {
     border: 2px solid #FFFFFF !important;
     border-radius: 8px !important; }
-    #navigation-menu #button-toggle:hover, #navigation-menu #button-toggle:focus {
-      background: #C62828 !important; }
 
 #navigation-menu,
 .entire-button-menu {

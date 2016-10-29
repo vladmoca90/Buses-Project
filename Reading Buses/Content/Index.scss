@@ -94,18 +94,18 @@ top-data p,
 .footer-middle-list li>a {
     color: $white;
 }
+#navigation-menu,
+#button-toggle:hover,
+#button-toggle:focus {
+    background: $dark-red !important;
+}
 #navigation-menu {
     margin-bottom: 0px;
     border-radius: 0px !important;
     min-height: 60px !important;
-    background: $dark-red !important;
     #button-toggle {
         border: 2px solid $white !important;
         border-radius: 8px !important;
-        &:hover,
-        &:focus {
-            background: $dark-red !important;
-        }
     }
 }
 #navigation-menu,
