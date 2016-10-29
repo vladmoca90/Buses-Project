@@ -221,6 +221,9 @@ input[type="search"],
   background-image: url("../Images/poster.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
+  @media screen and (max-width: 800px) {
+    #poster {
+      display: none; } }
 
 .busesReadingList {
   max-width: 450px;
