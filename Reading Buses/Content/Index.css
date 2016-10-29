@@ -29,6 +29,9 @@ body {
 
 #top-data {
   margin-top: 1.75%; }
+  @media screen and (max-width: 800px) {
+    #top-data {
+      margin-top: 3%; } }
   #top-data p {
     display: inline; }
 
