@@ -239,11 +239,10 @@ input[type="search"],
         font-weight: bold; }
       #footer #footer-container #footer-texts p .footer-Buses {
         color: #F7A600; }
-
-#footer-middle {
-  max-width: 420px; }
-  #footer-middle .footer-middle-list {
-    margin-left: 10%; }
+  #footer #footer-container #footer-middle {
+    max-width: 420px; }
+    #footer #footer-container #footer-middle .footer-middle-list {
+      margin-left: 10%; }
 
 .footer-middle-list > li,
 #followUs-section {
