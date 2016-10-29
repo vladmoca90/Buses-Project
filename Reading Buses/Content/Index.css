@@ -89,6 +89,9 @@ top-data p,
   #navigation-menu #button-toggle {
     border: 2px solid #FFFFFF !important;
     border-radius: 8px !important; }
+    @media screen and (max-width: 768px) {
+      #navigation-menu #button-toggle {
+        margin-top: 12px !important; } }
 
 #navigation-menu,
 .entire-button-menu {
