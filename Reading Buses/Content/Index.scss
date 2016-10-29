@@ -216,28 +216,28 @@ top-data p,
             margin-left: 3px;
         }
     }
-}
-#languages-list {
-    min-width: 100px !important;
-    text-align: left !important;
-    border-radius: 0px !important;
-    left: -1px;
-    margin-top: 1px;
-    border: 1px solid #CCCCCC;
-    li {
-        margin-top: 4px;
-        &:hover {
-            background: #F2F1F1;
-            transition: background 0.4s ease-out;
-            -webkit-transition: background 0.4s ease-out;
-            -moz-transition: background 0.4s ease-out;
-            -o-transition: background 0.4s ease-out;
-        }
-        img {
-            margin: 0px 4px 0px 10px;
-            max-width: 20px;
-            position: relative;
-            top: 4px;
+    #languages-list {
+        min-width: 100px !important;
+        text-align: left !important;
+        border-radius: 0px !important;
+        left: -1px;
+        margin-top: 1px;
+        border: 1px solid #CCCCCC;
+        li {
+            margin-top: 4px;
+            &:hover {
+                background: #F2F1F1;
+                transition: background 0.4s ease-out;
+                -webkit-transition: background 0.4s ease-out;
+                -moz-transition: background 0.4s ease-out;
+                -o-transition: background 0.4s ease-out;
+            }
+            img {
+                margin: 0px 4px 0px 10px;
+                max-width: 20px;
+                position: relative;
+                top: 4px;
+            }
         }
     }
 }
@@ -264,7 +264,7 @@ input[type="search"],
     margin: 2% 0%;
     border: 2px solid #CCCCCC; 
     @media screen and (max-width: 799px) {
-        margin: auto;
+        margin: 2% auto;
         float: none;
     }
     .busDetails {
