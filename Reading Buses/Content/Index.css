@@ -204,15 +204,14 @@ input[type="search"],
 .busNumbers {
   color: #000000; }
 
-.busDetails {
-  margin-bottom: 0px !important; }
-
 .busesReadingList {
   max-width: 450px;
   max-height: 250px;
   overflow-y: scroll;
   margin: 2% 0%;
   border: 2px solid #CCCCCC; }
+  .busesReadingList .busDetails {
+    margin-bottom: 0px !important; }
 
 #footer,
 #footer-container {

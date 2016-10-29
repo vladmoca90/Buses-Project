@@ -234,15 +234,15 @@ input[type="search"],
 .busNumbers {
     color: $black;
 }
-.busDetails {
-    margin-bottom: 0px !important;
-}
 .busesReadingList {  
     max-width: 450px; 
     max-height: 250px;
     overflow-y: scroll;
     margin: 2% 0%;
     border: 2px solid #CCCCCC; 
+    .busDetails {
+        margin-bottom: 0px !important;
+    }
 }
 #footer,
  #footer-container {
