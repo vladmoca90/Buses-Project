@@ -154,6 +154,9 @@ top-data p,
     @media screen and (max-width: 800px) {
         margin: 0%;
     }
+    @media screen and (min-width: 1280px) and (max-width: 1300px) {
+        margin: 0% 11%;
+    }
     .buttons-menu {
         line-height: 60px;
         a {
