@@ -79,20 +79,14 @@ top-data p,
     input[type="search"] {
         max-width: 125px;
     }
-}
-input[type="search"],
-#buses-search-bar div>button {
-    max-height: 34px;
-}
-#buses-search-bar input[type="search"],
-#buses-search-bar div>button {
-    @media screen and (max-width: 768px) {
+    input[type="search"],
+    div>button {
+        max-height: 34px;
+        border-radius: 0%;
+        @media screen and (max-width: 768px) {
             float: left;
+        }
     }
-}
-#buses-search-bar button,
-#buses-search-bar input[type="search"] {
-    border-radius: 0%;
 }
 #buttons-nav .buttons-menu>a,
 #languages a,
