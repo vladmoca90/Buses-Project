@@ -79,6 +79,9 @@ top-data p,
         height: $max-size;
         max-height: 50px;
     }
+    @media screen and (max-width: 800px) {
+        margin-top: 2.1%;
+    }
     input[type="search"] {
         max-width: 125px;
     }
