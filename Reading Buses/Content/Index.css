@@ -26,6 +26,11 @@ body {
 
 #top img {
   max-width: 300px; }
+  @media screen and (max-width: 800px) {
+    #top img {
+      margin: auto;
+      float: none;
+      display: block; } }
 
 #top-data {
   margin-top: 1.75%; }
