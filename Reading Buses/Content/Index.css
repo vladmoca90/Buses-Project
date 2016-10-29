@@ -254,11 +254,10 @@ input[type="search"],
   #footer-icons h4 {
     margin-top: 4px;
     text-align: center; }
-
-#followUs-section #icons-box {
-  max-width: 235px; }
-  #followUs-section #icons-box img {
-    max-width: 35px;
-    max-height: 35px;
-    margin-left: 3.5%; }
+  #footer-icons #followUs-section #icons-box {
+    max-width: 235px; }
+    #footer-icons #followUs-section #icons-box img {
+      max-width: 35px;
+      max-height: 35px;
+      margin-left: 3.5%; }
 
