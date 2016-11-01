@@ -7,8 +7,8 @@
     <p>{{bus.start}}</p>
     <p>{{bus.end}}</p>
 
-    <ul>
-        <li ng-repeat="stop in bus.stops" ng-click="showStopOverview(stop)">{{stop.name}}</li>
+    <ul role="list">
+        <li role="listitem" ng-repeat="stop in bus.stops" ng-click="showStopOverview(stop)">{{stop.name}}</li>
     </ul>
 
 </div>
