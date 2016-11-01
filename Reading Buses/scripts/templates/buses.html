@@ -3,7 +3,7 @@
     <title-directive></title-directive>
 
     <div class="busesReadingList">
-        <table class="table table-bordered busDetails">
+        <table role="presentation" class="table table-bordered busDetails">
             <tr class="bus-row" ng-repeat="bus in allBusesInfo.buses" ng-click="goToBusOverview(bus)">
                 <td class="busNumbers text-center"><a>{{bus.number}}</a></td>
                 <td class="busDestination">{{bus.start}} - {{bus.end}}</td>
