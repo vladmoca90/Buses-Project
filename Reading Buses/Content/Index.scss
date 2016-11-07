@@ -343,6 +343,12 @@ input[type="search"],
 #followUs-section {
     margin-top: 3%;
 }
+#footer-texts,
+#footer-middle {
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
+}
 #footer-icons {
     max-width: 350px;
     h4 {

@@ -306,6 +306,11 @@ input[type="search"],
 #followUs-section {
   margin-top: 3%; }
 
+@media screen and (max-width: 480px) {
+  #footer-texts,
+  #footer-middle {
+    display: none; } }
+
 #footer-icons {
   max-width: 350px; }
   #footer-icons h4 {
