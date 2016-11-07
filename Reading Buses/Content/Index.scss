@@ -351,6 +351,7 @@ input[type="search"],
 }
 #footer-icons {
     max-width: 350px;
+    padding-top: 0.3%;
     @media screen and (max-width: 480px) {
         @include positions-group;
     }
