@@ -284,8 +284,7 @@ input[type="search"],
 
 #footer #footer-container {
   max-width: 1165px;
-  overflow: hidden;
-  padding-top: 1%; }
+  overflow: hidden; }
   #footer #footer-container #footer-texts {
     max-width: 385px; }
     #footer #footer-container #footer-texts p {
