@@ -248,10 +248,14 @@ input[type="search"],
         .busesReadingList .busDetails .busNumbers,
         .busesReadingList .busDetails .busDestination {
           font-size: 15px; } }
-      @media screen and (max-width: 385px) and (max-width: 414px) {
+      @media screen and (max-width: 385px) and (max-width: 480px) {
         .busesReadingList .busDetails .busNumbers,
         .busesReadingList .busDetails .busDestination {
           font-size: 16px; } }
+      @media screen and (max-width: 481px) and (max-width: 512px) {
+        .busesReadingList .busDetails .busNumbers,
+        .busesReadingList .busDetails .busDestination {
+          font-size: 17px; } }
     .busesReadingList .busDetails .busNumbers > a {
       color: #000000; }
       .busesReadingList .busDetails .busNumbers > a:hover {
