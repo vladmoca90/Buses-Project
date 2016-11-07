@@ -142,6 +142,9 @@ top-data p,
   @media screen and (max-width: 799px) {
     #buttons-nav {
       margin: 0%; } }
+  @media screen and (min-width: 800px) and (max-width: 899px) {
+    #buttons-nav {
+      margin: 0% 5%; } }
   @media screen and (min-width: 1280px) and (max-width: 1300px) {
     #buttons-nav {
       margin: 0% 11%; } }
