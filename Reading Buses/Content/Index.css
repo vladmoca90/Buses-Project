@@ -244,6 +244,14 @@ input[type="search"],
     .busesReadingList .busDetails .busNumbers,
     .busesReadingList .busDetails .busDestination {
       font-size: 18px; }
+      @media screen and (max-width: 320px) and (max-width: 384px) {
+        .busesReadingList .busDetails .busNumbers,
+        .busesReadingList .busDetails .busDestination {
+          font-size: 15px; } }
+      @media screen and (max-width: 385px) and (max-width: 414px) {
+        .busesReadingList .busDetails .busNumbers,
+        .busesReadingList .busDetails .busDestination {
+          font-size: 16px; } }
     .busesReadingList .busDetails .busNumbers > a {
       color: #000000; }
       .busesReadingList .busDetails .busNumbers > a:hover {

@@ -271,6 +271,12 @@ input[type="search"],
         .busNumbers,
         .busDestination {
             font-size: $main-font-size + 2px;
+            @media screen and (max-width: 320px) and (max-width: 384px) {
+                font-size: $main-font-size - 1px;
+            }
+            @media screen and (max-width: 385px) and (max-width: 414px) {
+                font-size: $main-font-size;
+            }
         }
         .busNumbers>a {
             color: $black;
