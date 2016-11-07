@@ -300,7 +300,7 @@ input[type="search"],
   #footer #footer-container #footer-middle {
     max-width: 420px; }
     #footer #footer-container #footer-middle .footer-middle-list {
-      margin-left: 10%; }
+      margin: 2% 0% 0% 10%; }
 
 .footer-middle-list > li,
 #followUs-section {
