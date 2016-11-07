@@ -112,13 +112,16 @@ top-data p,
 #footer {
   background: #C62828; }
 
-@media screen and (max-width: 767px) {
-  .entire-button-menu {
-    width: 100%;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    position: absolute;
-    z-index: 1; } }
+.entire-button-menu {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+  @media screen and (max-width: 767px) {
+    .entire-button-menu {
+      width: 100%;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      position: absolute;
+      z-index: 1; } }
 
 #buttons-nav,
 .buttons-menu,
