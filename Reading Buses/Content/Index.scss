@@ -276,6 +276,7 @@ input[type="search"],
     overflow-y: scroll;
     margin: 2% 0%;
     border: 2px solid #CCCCCC; 
+    float: right;
     @media screen and (max-width: 799px) {
         margin: 2% auto;
         float: none;
