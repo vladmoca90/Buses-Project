@@ -271,7 +271,7 @@ input[type="search"],
       @media screen and (min-width: 481px) and (max-width: 512px) {
         .busesReadingList .busDetails .busNumbers,
         .busesReadingList .busDetails .busDestination {
-          font-size: 17px; } }
+          font-size: 16px; } }
     .busesReadingList .busDetails .busNumbers > a {
       color: #000000; }
       .busesReadingList .busDetails .busNumbers > a:hover {
