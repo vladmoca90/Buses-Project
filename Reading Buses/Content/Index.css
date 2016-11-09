@@ -263,7 +263,7 @@ input[type="search"],
       @media screen and (min-width: 320px) and (max-width: 384px) {
         .busesReadingList .busDetails .busNumbers,
         .busesReadingList .busDetails .busDestination {
-          font-size: 15px; } }
+          font-size: 12px; } }
       @media screen and (min-width: 385px) and (max-width: 480px) {
         .busesReadingList .busDetails .busNumbers,
         .busesReadingList .busDetails .busDestination {
