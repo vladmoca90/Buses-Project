@@ -267,7 +267,7 @@ input[type="search"],
       @media screen and (min-width: 385px) and (max-width: 480px) {
         .busesReadingList .busDetails .busNumbers,
         .busesReadingList .busDetails .busDestination {
-          font-size: 16px; } }
+          font-size: 14px; } }
       @media screen and (min-width: 481px) and (max-width: 512px) {
         .busesReadingList .busDetails .busNumbers,
         .busesReadingList .busDetails .busDestination {
