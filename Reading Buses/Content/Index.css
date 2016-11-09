@@ -42,7 +42,7 @@ body {
 
 #top,
 #top-data,
-#buttons-nav .buttons-menu a,
+.buttons-menu a,
 #languages,
 #footer,
 .busesReadingList
@@ -84,7 +84,7 @@ top-data p,
       #buses-search-bar div > button {
         float: left; } }
 
-#buttons-nav .buttons-menu > a,
+.buttons-menu > a,
 #languages a,
 #footer,
 .footer-middle-list li > a {
