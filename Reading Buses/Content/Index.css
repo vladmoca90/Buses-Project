@@ -55,12 +55,14 @@ top-data p,
   font-size: 16px; }
 
 #top-data,
-#buses-search-bar {
+#buses-search-bar,
+.busesReadingList {
   float: right; }
-  @media screen and (max-width: 640px) {
-    #top-data,
-    #buses-search-bar {
-      display: none; } }
+
+@media screen and (max-width: 640px) {
+  #top-data,
+  #buses-search-bar {
+    display: none; } }
 
 #buses-search-bar {
   margin: 1.3% 1% 0% 0%; }
@@ -249,8 +251,7 @@ input[type="search"],
   max-height: 250px;
   overflow-y: scroll;
   margin: 2% 0%;
-  border: 2px solid #CCCCCC;
-  float: right; }
+  border: 2px solid #CCCCCC; }
   @media screen and (max-width: 799px) {
     .busesReadingList {
       margin: 2% auto;

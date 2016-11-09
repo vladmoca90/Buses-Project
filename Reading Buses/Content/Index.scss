@@ -74,8 +74,12 @@ top-data p,
     font-size: $main-font-size;
 }
 #top-data,
-#buses-search-bar {
+#buses-search-bar,
+.busesReadingList {
     float: right;
+}
+#top-data,
+#buses-search-bar {
     @media screen and (max-width: 640px) {
         display: none;
     }
@@ -275,8 +279,7 @@ input[type="search"],
     max-height: 250px;
     overflow-y: scroll;
     margin: 2% 0%;
-    border: 2px solid #CCCCCC; 
-    float: right;
+    border: 2px solid #CCCCCC;
     @media screen and (max-width: 799px) {
         margin: 2% auto;
         float: none;
