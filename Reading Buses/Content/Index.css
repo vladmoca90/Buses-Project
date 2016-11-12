@@ -84,7 +84,6 @@ top-data p,
       #buses-search-bar div > button {
         float: left; } }
 
-.buttons-menu > a,
 #languages a,
 #footer,
 .footer-middle-list li > a {
@@ -156,7 +155,8 @@ top-data p,
   #buttons-nav .buttons-menu {
     line-height: 60px; }
     #buttons-nav .buttons-menu a {
-      line-height: 30px; }
+      line-height: 30px;
+      color: #FFFFFF !important; }
       @media screen and (min-width: 768px) and (max-width: 799px) {
         #buttons-nav .buttons-menu a {
           padding: 15px 12px; } }
