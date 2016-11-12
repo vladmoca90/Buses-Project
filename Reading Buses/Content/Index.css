@@ -291,7 +291,8 @@ input[type="search"],
   max-width: 1165px;
   overflow: hidden; }
   #footer #footer-container #footer-texts {
-    max-width: 385px; }
+    max-width: 385px;
+    padding-top: 10px; }
     #footer #footer-container #footer-texts p {
       padding: 1% 0% 0% 1%; }
       #footer #footer-container #footer-texts p .sitemap {
