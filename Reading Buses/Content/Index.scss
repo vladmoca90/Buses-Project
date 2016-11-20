@@ -194,6 +194,7 @@ top-data p,
 }
 #top-data>p>span:hover,
 #languages,
+.busNumbers>a:hover,
 #footer-icons>img,
 .footer-middle-list li>a:hover,
 #icons-box img:hover {
@@ -302,7 +303,6 @@ input[type="search"],
             color: $black;
             &:hover {
                 text-decoration: none;
-                cursor: pointer;
             }
         }
     }

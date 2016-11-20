@@ -172,6 +172,7 @@ top-data p,
 
 #top-data > p > span:hover,
 #languages,
+.busNumbers > a:hover,
 #footer-icons > img,
 .footer-middle-list li > a:hover,
 #icons-box img:hover {
@@ -276,8 +277,7 @@ input[type="search"],
     .busesReadingList .busDetails .busNumbers > a {
       color: #000000; }
       .busesReadingList .busDetails .busNumbers > a:hover {
-        text-decoration: none;
-        cursor: pointer; }
+        text-decoration: none; }
 
 #footer,
 #footer-container {
