@@ -22,7 +22,7 @@ body {
 
 #top,
 #top img {
-  max-height: 70px; }
+  min-height: 70px; }
 
 #top img {
   max-width: 300px; }
@@ -69,7 +69,7 @@ top-data p,
   @media screen and (max-width: 767px) {
     #buses-search-bar {
       height: 100%;
-      max-height: 50px; } }
+      min-height: 50px; } }
   @media screen and (max-width: 799px) {
     #buses-search-bar {
       margin-top: 2.1%; } }
@@ -77,7 +77,7 @@ top-data p,
     max-width: 125px; }
   #buses-search-bar input[type="search"],
   #buses-search-bar div > button {
-    max-height: 34px;
+    min-height: 34px;
     border-radius: 0%; }
     @media screen and (max-width: 767px) {
       #buses-search-bar input[type="search"],
@@ -127,12 +127,12 @@ top-data p,
 #buttons-nav,
 .buttons-menu,
 .buttons-menu a:hover {
-  max-height: 60px; }
+  min-height: 60px; }
   @media screen and (max-width: 767px) {
     #buttons-nav,
     .buttons-menu,
     .buttons-menu a:hover {
-      max-height: 100%; } }
+      min-height: 100%; } }
 
 .buttons-menu a,
 .footer-Reading {
@@ -239,7 +239,7 @@ input[type="search"],
   overflow: auto; }
 
 #poster {
-  max-height: 600px;
+  min-height: 600px;
   background-image: url("../Images/poster.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
@@ -249,7 +249,7 @@ input[type="search"],
 
 .busesReadingList {
   max-width: 450px;
-  max-height: 250px;
+  min-height: 250px;
   overflow-y: scroll;
   margin: 2% 0%;
   border: 2px solid #CCCCCC; }
@@ -281,7 +281,7 @@ input[type="search"],
 
 #footer,
 #footer-container {
-  max-height: 170px; }
+  min-height: 170px; }
 
 #footer-container,
 #icons-box {
@@ -328,6 +328,6 @@ input[type="search"],
     max-width: 235px; }
     #footer-icons #followUs-section #icons-box img {
       max-width: 35px;
-      max-height: 35px;
+      min-height: 35px;
       margin-left: 3.5%; }
 
