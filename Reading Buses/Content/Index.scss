@@ -276,7 +276,7 @@ input[type="search"],
 }
 .busesReadingList {  
     max-width: 450px; 
-    min-height: 250px;
+    max-height: 250px;
     overflow-y: scroll;
     margin: 2% 0%;
     border: 2px solid #CCCCCC;
