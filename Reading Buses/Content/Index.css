@@ -247,6 +247,9 @@ input[type="search"],
     #poster {
       display: none; } }
 
+#back-button {
+  margin: 1% 0% 1% 2%; }
+
 .busesReadingList {
   max-width: 450px;
   max-height: 250px;
