@@ -1,4 +1,5 @@
 ﻿function busesService($http) {
+
     var buses = [
             {
                 number: "1", start: "Newbury", end: "Central Reading Station", stops: [
@@ -50,6 +51,7 @@
     this.getBuses = function () {
         return buses;
     }
+
 }
 
 busesService.$inject = ["$http"];
