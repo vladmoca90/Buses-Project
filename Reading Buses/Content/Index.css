@@ -141,15 +141,17 @@ top-data p,
   @media screen and (max-width: 767px) {
     #buttons-nav {
       max-width: 100%; } }
-  #buttons-nav .buttons-menu a {
-    line-height: 60px;
-    color: #FFFFFF !important; }
-    #buttons-nav .buttons-menu a:hover {
-      background: #D32F2F;
-      border-bottom: 5px solid #FF5252; }
-      @media screen and (max-width: 767px) {
-        #buttons-nav .buttons-menu a:hover {
-          border-bottom: 0px; } }
+  #buttons-nav .buttons-menu {
+    line-height: 60px; }
+    #buttons-nav .buttons-menu a {
+      line-height: 25px;
+      color: #FFFFFF !important; }
+      #buttons-nav .buttons-menu a:hover {
+        background: #D32F2F;
+        border-bottom: 5px solid #FF5252; }
+        @media screen and (max-width: 767px) {
+          #buttons-nav .buttons-menu a:hover {
+            border-bottom: 0px; } }
 
 #top-data > p > span:hover,
 #languages,

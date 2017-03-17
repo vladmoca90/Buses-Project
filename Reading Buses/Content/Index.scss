@@ -161,8 +161,9 @@ top-data p,
         max-width: 100%;
     }
     .buttons-menu {
+        line-height: 60px;
         a {
-            line-height: 60px;
+            line-height: 25px;
             color: $white !important;
             &:hover {
                 background: #D32F2F;
