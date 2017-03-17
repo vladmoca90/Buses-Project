@@ -48,6 +48,11 @@ body {
 #footer-icons h4 {
   font-family: Ubuntu; }
 
+#buttons-nav,
+#footer-container,
+#icons-box {
+  margin: auto; }
+
 top-data p,
 #buses-search-bar div > button span
 .footer-Buses {
@@ -64,7 +69,8 @@ top-data p,
     display: none; } }
 
 #buses-search-bar {
-  margin-top: 0px !important; }
+  margin-top: 0px !important;
+  margin-right: 0px !important; }
   @media screen and (max-width: 767px) {
     #buses-search-bar {
       height: 100%;
@@ -102,18 +108,18 @@ top-data p,
         margin-top: 12px !important; } }
 
 #navigation-menu,
-.entire-button-menu {
+.nav-button-menu {
   border: #C62828 !important; }
 
-.entire-button-menu,
+.nav-button-menu,
 #footer {
   background: #C62828; }
 
-.entire-button-menu {
+.nav-button-menu {
   padding-left: 0px !important;
   padding-right: 0px !important; }
   @media screen and (max-width: 767px) {
-    .entire-button-menu {
+    .nav-button-menu {
       width: 100%;
       padding-left: 0px !important;
       padding-right: 0px !important;
@@ -123,12 +129,7 @@ top-data p,
 #buttons-nav,
 .buttons-menu,
 .buttons-menu a:hover {
-  max-height: 60px; }
-  @media screen and (max-width: 767px) {
-    #buttons-nav,
-    .buttons-menu,
-    .buttons-menu a:hover {
-      min-height: 100%; } }
+  min-height: 60px; }
 
 .buttons-menu a,
 .footer-Reading {
@@ -136,25 +137,19 @@ top-data p,
 
 #buttons-nav {
   max-width: 500px;
-  margin: auto;
   float: none; }
-  #buttons-nav .buttons-menu {
-    line-height: 60px; }
-    #buttons-nav .buttons-menu a {
-      line-height: 30px;
-      color: #FFFFFF !important; }
-      @media screen and (min-width: 768px) and (max-width: 799px) {
-        #buttons-nav .buttons-menu a {
-          padding: 15px 12px; } }
-      @media screen and (min-width: 800px) and (max-width: 899px) {
-        #buttons-nav .buttons-menu a {
-          font-size: 16px; } }
-      #buttons-nav .buttons-menu a:hover {
-        background: #D32F2F;
-        border-bottom: 5px solid #FF5252; }
-        @media screen and (max-width: 767px) {
-          #buttons-nav .buttons-menu a:hover {
-            border-bottom: 0px; } }
+  @media screen and (max-width: 767px) {
+    #buttons-nav {
+      max-width: 100%; } }
+  #buttons-nav .buttons-menu a {
+    line-height: 60px;
+    color: #FFFFFF !important; }
+    #buttons-nav .buttons-menu a:hover {
+      background: #D32F2F;
+      border-bottom: 5px solid #FF5252; }
+      @media screen and (max-width: 767px) {
+        #buttons-nav .buttons-menu a:hover {
+          border-bottom: 0px; } }
 
 #top-data > p > span:hover,
 #languages,
@@ -273,10 +268,6 @@ input[type="search"],
 #footer,
 #footer-container {
   min-height: 170px; }
-
-#footer-container,
-#icons-box {
-  margin: auto; }
 
 #footer #footer-container {
   max-width: 1165px;
