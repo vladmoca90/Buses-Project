@@ -4,6 +4,14 @@
             {
                 number: "1", start: "Newbury", end: "Central Reading Station", stops: [
                   { name: "Caversham Library" },
+                  { name: "Friar Street" },
+                  { name: "Caversham Library" },
+                  { name: "Friar Street" },
+                  { name: "Caversham Library" },
+                  { name: "Friar Street" },
+                  { name: "Caversham Library" },
+                  { name: "Friar Street" },
+                  { name: "Caversham Library" },
                   { name: "Friar Street" }
                 ]
             },

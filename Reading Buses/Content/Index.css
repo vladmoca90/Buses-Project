@@ -226,7 +226,7 @@ input[type="search"],
   overflow: auto; }
 
 #poster {
-  min-height: 600px;
+  min-height: 550px;
   background-image: url("../Images/poster.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%; }
@@ -241,7 +241,7 @@ input[type="search"],
 
 .busesReadingList {
   max-width: 450px;
-  max-height: 250px;
+  max-height: 350px;
   overflow-y: scroll;
   margin: 2% 0%;
   border: 2px solid #CCCCCC; }
