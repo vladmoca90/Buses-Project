@@ -36,11 +36,15 @@ body {
       float: none;
       display: block; } }
 
-#top-data p {
+@media screen and (max-width: 767px) {
+  #top-text {
+    display: none; } }
+
+#top-text p {
   display: inline; }
 
 #top,
-#top-data,
+#top-text,
 .buttons-menu a,
 #languages,
 #footer,
@@ -58,13 +62,13 @@ top-data p,
 .footer-Buses {
   font-size: 16px; }
 
-#top-data,
+#top-text,
 #buses-search-bar,
 .busesReadingList {
   float: right; }
 
 @media screen and (max-width: 640px) {
-  #top-data,
+  #top-text,
   #buses-search-bar {
     display: none; } }
 
@@ -153,7 +157,7 @@ top-data p,
           #buttons-nav .buttons-menu a:hover {
             border-bottom: 0px; } }
 
-#top-data > p > span:hover,
+#top-text > p > span:hover,
 #languages,
 .busNumbers > a:hover,
 #footer-icons > img,
