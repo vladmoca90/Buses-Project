@@ -67,6 +67,12 @@
                 <p>|</p>
                 <p><a role="link" href="#">Privacy and Cookies</a></p>
             </div>
+       <!-- <div id="languages" class="dropdown" ng-controller="dropdownController">
+                <a role="link" data-toggle="dropdown">Languages<span class="caret caret-languages"></span></a>
+                <ul role="list" id="languages-list" class="dropdown-menu list-unstyled">
+                    <li role="listitem" ng-repeat="language in languagesMenu"><img role="img" ng-src="{{language.languageFlag}}" />&nbsp;{{language.languageName}}</li>
+                </ul>
+            </div> -->
         </div>
         <nav role="navigation" id="navigation-menu" class="navbar navbar-inverse">
             <div class="navbar-header">
@@ -86,12 +92,6 @@
                     <li role="listitem" class="buttons-menu"><a role="link" href="#">Jobs</a></li>
                     <li role="listitem" class="buttons-menu"><a role="link" href="#">Contact</a></li>
                 </ul>
-                <div id="languages" class="dropdown" ng-controller="dropdownController">
-                    <a role="link" data-toggle="dropdown">Languages<span class="caret caret-languages"></span></a>
-                    <ul role="list" id="languages-list" class="dropdown-menu list-unstyled">
-                        <li role="listitem" ng-repeat="language in languagesMenu"><img role="img" ng-src="{{language.languageFlag}}" />&nbsp;{{language.languageName}}</li>
-                    </ul>
-                </div>
             </div>
         </nav>
     </header>
