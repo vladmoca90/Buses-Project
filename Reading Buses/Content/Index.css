@@ -21,6 +21,9 @@ body {
 #icons-box {
   width: 100%; }
 
+#top {
+  line-height: 70px; }
+
 #top,
 #top img {
   min-height: 70px; }
@@ -33,16 +36,8 @@ body {
       float: none;
       display: block; } }
 
-#top-data {
-  margin-top: 1.75%; }
-  @media screen and (max-width: 799px) {
-    #top-data {
-      margin-top: 3%; } }
-  @media screen and (min-width: 800px) and (max-width: 899px) {
-    #top-data {
-      margin-top: 2%; } }
-  #top-data p {
-    display: inline; }
+#top-data p {
+  display: inline; }
 
 #top,
 #top-data,
@@ -69,14 +64,11 @@ top-data p,
     display: none; } }
 
 #buses-search-bar {
-  margin: 1.4% 1% 0% 0%; }
+  margin-top: 0px !important; }
   @media screen and (max-width: 767px) {
     #buses-search-bar {
       height: 100%;
       min-height: 50px; } }
-  @media screen and (max-width: 799px) {
-    #buses-search-bar {
-      margin-top: 2.1%; } }
   #buses-search-bar input[type="search"] {
     max-width: 125px; }
   #buses-search-bar input[type="search"],
@@ -143,19 +135,9 @@ top-data p,
   font-size: 17px; }
 
 #buttons-nav {
-  max-width: 700px; }
-  @media screen and (max-width: 899px) {
-    #buttons-nav {
-      margin: 0%; } }
-  @media screen and (min-width: 900px) and (max-width: 1023px) {
-    #buttons-nav {
-      margin: 0% 5%; } }
-  @media screen and (min-width: 1024px) and (max-width: 1080px) {
-    #buttons-nav {
-      margin: 0% 9%; } }
-  @media screen and (min-width: 1280px) and (max-width: 1300px) {
-    #buttons-nav {
-      margin: 0% 11%; } }
+  max-width: 500px;
+  margin: auto;
+  float: none; }
   #buttons-nav .buttons-menu {
     line-height: 60px; }
     #buttons-nav .buttons-menu a {

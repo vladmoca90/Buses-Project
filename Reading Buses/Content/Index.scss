@@ -38,6 +38,9 @@ body {
 #icons-box {
     width: $max-size;
 }
+#top {
+    line-height: 70px;
+}
 #top,
 #top img {
     min-height: 70px;
@@ -49,17 +52,8 @@ body {
         display: block;
     }
 }
-#top-data {
-    margin-top: 1.75%;
-    @media screen and (max-width: 799px) {
-        margin-top: 3%;
-    }
-    @media screen and (min-width: 800px)and (max-width: 899px) {
-        margin-top: 2%;
-    }
-    p {
-        display: inline;
-    }
+#top-data p {
+    display: inline;
 }
 #top,
 #top-data,
@@ -87,13 +81,10 @@ top-data p,
     }
 }
 #buses-search-bar {
-    margin: 1.4% 1% 0% 0%;
+    margin-top: 0px !important;
     @media screen and (max-width: 767px) {
         height: $max-size;
         min-height: 50px;
-    }
-    @media screen and (max-width: 799px) {
-        margin-top: 2.1%;
     }
     input[type="search"] {
         max-width: 125px;
@@ -161,19 +152,9 @@ top-data p,
     font-size: 16px + 1px;
 }
 #buttons-nav {
-    max-width: 700px;
-    @media screen and (max-width: 899px) {
-        margin: 0%;
-    }
-    @media screen and (min-width: 900px) and (max-width: 1023px) {
-        margin: 0% 5%;
-    }
-    @media screen and (min-width: 1024px) and (max-width: 1080px) {
-        margin: 0% 9%;
-    }
-    @media screen and (min-width: 1280px) and (max-width: 1300px) {
-        margin: 0% 11%;
-    }
+    max-width: 500px;
+    margin: auto;
+    float: none;
     .buttons-menu {
         line-height: 60px;
         a {
