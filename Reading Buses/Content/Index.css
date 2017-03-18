@@ -179,16 +179,13 @@ top-data p,
 .footer-Buses,
 .great-knollys-street,
 .telephone-number {
-  font-size: 15px; }
+  font-size: 17px; }
 
 #languages {
   padding: 5px;
   margin-top: 14px;
   border: 1px solid #FFFFFF;
   max-width: 100px; }
-  @media screen and (max-width: 1023px) {
-    #languages {
-      display: none; } }
   #languages a {
     text-decoration: none; }
     #languages a .caret-languages {
