@@ -6,6 +6,7 @@ body {
   background: #FFFFFF; }
 
 #top,
+#languages img,
 #buses-search-bar div > button,
 #buttons-nav,
 .buttons-menu > li,
@@ -13,9 +14,10 @@ body {
 .busNumbers {
   height: 100%; }
 
-#buttons-nav,
 #languages,
-#languages-list li img,
+#languages-list,
+#languages img,
+#buttons-nav,
 #poster,
 #footer-middle,
 #icons-box {
@@ -43,10 +45,10 @@ body {
 #top-text p {
   display: inline; }
 
+#languages,
 #top,
 #top-text,
 .buttons-menu a,
-#languages,
 #footer,
 .busesReadingList
 #footer-icons h4 {
@@ -63,6 +65,7 @@ top-data p,
   font-size: 16px; }
 
 #top-text,
+#languages,
 #buses-search-bar,
 .busesReadingList {
   float: right; }
@@ -90,11 +93,6 @@ top-data p,
       #buses-search-bar div > button {
         float: left; } }
 
-#languages a,
-#footer,
-.footer-middle-list li > a {
-  color: #FFFFFF; }
-
 #navigation-menu,
 #button-toggle:hover,
 #button-toggle:focus {
@@ -115,6 +113,7 @@ top-data p,
 .nav-button-menu {
   border: #C62828 !important; }
 
+#languages,
 .nav-button-menu,
 #footer {
   background: #C62828; }
@@ -139,6 +138,32 @@ top-data p,
 .footer-Reading {
   font-size: 17px; }
 
+#languages {
+  max-width: 100px;
+  font-size: 15px;
+  line-height: 25px;
+  border: 1px solid #CCCCCC;
+  margin: 15px 15px 0px 0px;
+  padding: 5px; }
+  #languages a {
+    text-decoration: none;
+    color: #FFFFFF !important; }
+  #languages .caret-languages {
+    margin-left: 5px; }
+  #languages #languages-list {
+    line-height: 20px;
+    min-width: 98px;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0px !important; }
+    #languages #languages-list li {
+      margin-top: 10px; }
+      #languages #languages-list li:first-child {
+        margin-top: 0px; }
+      #languages #languages-list li img {
+        max-width: 20px;
+        min-height: 16px; }
+
 #buttons-nav {
   max-width: 500px;
   float: none; }
@@ -158,58 +183,25 @@ top-data p,
             border-bottom: 0px; } }
 
 #top-text > p > span:hover,
-#languages,
+#languages-list li,
 .busNumbers > a:hover,
 #footer-icons > img,
 .footer-middle-list li > a:hover,
 #icons-box img:hover {
   cursor: pointer; }
 
-#languages,
-#languages-list li img,
 #footer-texts,
 #footer-middle,
 .footer-middle-list,
 #footer-icons {
   float: left; }
 
-#languages,
 .sitemap,
 .useful-links,
 .footer-Buses,
 .great-knollys-street,
 .telephone-number {
   font-size: 17px; }
-
-#languages {
-  padding: 5px;
-  margin-top: 14px;
-  border: 1px solid #FFFFFF;
-  max-width: 100px; }
-  #languages a {
-    text-decoration: none; }
-    #languages a .caret-languages {
-      margin-left: 3px; }
-  #languages #languages-list {
-    min-width: 100px !important;
-    text-align: left !important;
-    border-radius: 0px !important;
-    left: -1px;
-    margin-top: 1px;
-    border: 1px solid #CCCCCC; }
-    #languages #languages-list li {
-      margin-top: 4px; }
-      #languages #languages-list li:hover {
-        background: #F2F1F1;
-        transition: background 0.3s ease-out;
-        -webkit-transition: background 0.3s ease-out;
-        -moz-transition: background 0.3s ease-out;
-        -o-transition: background 0.3s ease-out; }
-      #languages #languages-list li img {
-        margin: 0px 4px 0px 10px;
-        max-width: 20px;
-        position: relative;
-        top: 4px; }
 
 #top img,
 input[type="search"],
@@ -292,6 +284,10 @@ input[type="search"],
     max-width: 420px; }
     #footer #footer-container #footer-middle .footer-middle-list {
       margin: 2% 0% 0% 10%; }
+
+#footer,
+.footer-middle-list li > a {
+  color: #FFFFFF; }
 
 .footer-middle-list > li,
 #followUs-section {

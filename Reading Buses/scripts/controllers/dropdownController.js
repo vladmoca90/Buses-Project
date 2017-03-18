@@ -1,6 +1,6 @@
 ﻿function dropdownController($scope, $http) {
 
-    $scope.languagesMenu = [
+    $scope.languages = [
         { languageFlag: "../../Images/UK.jpg", languageName: "English" },
         { languageFlag: "../../Images/Spain.png", languageName: "Spanish" },
         { languageFlag: "../../Images/France.png", languageName: "French" },
