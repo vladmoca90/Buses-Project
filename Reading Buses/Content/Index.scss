@@ -136,6 +136,7 @@ top-data p,
 }
 #languages,
 .nav-button-menu,
+#buy-a-ticket,
 #footer {
     background: $dark-red;
 }
@@ -226,6 +227,8 @@ top-data p,
 #icons-box img:hover {
     cursor: pointer;
 }
+#buy-a-ticket input,
+#buy-a-ticket label,
 #footer-texts,
 #footer-middle,
 .footer-middle-list,
@@ -250,12 +253,12 @@ input[type="search"],
     overflow: auto;
 }
 #buy-a-ticket {
-    max-width: 400px;
+    max-width: 360px;
     position: absolute;
     top: 180px;
     left: 40px;
-    background: $white;
     padding: 15px;
+    color: $white;
     div {
         margin-left: 10px;
         margin-right: 10px;
