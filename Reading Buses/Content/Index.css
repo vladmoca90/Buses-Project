@@ -19,6 +19,7 @@ body {
 #languages img,
 #buttons-nav,
 #poster,
+#buy-a-ticket,
 #footer-middle,
 #icons-box {
   width: 100%; }
@@ -219,6 +220,17 @@ input[type="search"],
 
 #middle {
   overflow: auto; }
+
+#buy-a-ticket {
+  max-width: 400px;
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  background: #FFFFFF;
+  padding: 15px; }
+  #buy-a-ticket div {
+    margin-left: 10px;
+    margin-right: 10px; }
 
 #poster {
   min-height: 550px;

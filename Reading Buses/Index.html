@@ -96,7 +96,31 @@
         </nav>
     </header>
     <section role="main" id="middle">
-        <div role="presentation" id="poster"></div>
+        <div role="presentation" id="poster">
+            <form role="form" id="buy-a-ticket" class="form-horizontal">
+                <div role="group" class="form-group">
+                    <label for="from">From:</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div role="group" class="form-group">
+                    <label for="to">To:</label>
+                    <input type="text" class="form-control" />
+                </div>
+                <div role="group" class="form-group">
+                    <label for="location">Railcards:</label>
+                    <select class="form-control">
+                        <option value="United Kingdom" aria-selected="false">United Kingdom</option>
+                        <option value="Ireland" selected="selected" aria-selected="true">Ireland</option>
+                        <option value="European Union" aria-selected="false">European Union</option>
+                        <option value="United States" aria-selected="false">United States</option>
+                        <option value="Canada" aria-selected="false">Canada</option>
+                        <option value="Australia/New Zealand" aria-selected="false">Australia/New Zealand</option>
+                        <option value="South Africa" aria-selected="false">South Africa</option>
+                    </select>
+                </div>
+                <button role="button" type="submit">Search</button>
+            </form>
+        </div>
         <div ng-view></div>
     </section>
     <footer role="contentinfo" id="footer" class="clearfix">
