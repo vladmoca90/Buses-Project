@@ -31,10 +31,10 @@ body {
 #topSection > img[title="Logo"] {
   min-height: 70px; }
 
-#topSectionimg {
+#topSection > img[title="Logo"] {
   max-width: 300px; }
   @media screen and (max-width: 640px) {
-    #topSectionimg {
+    #topSection > img[title="Logo"] {
       margin: auto;
       float: none;
       display: block; } }
@@ -43,7 +43,7 @@ body {
   #topText {
     display: none; } }
 
-#topText p {
+#topText > p {
   display: inline; }
 
 #languagesMenu,
@@ -326,9 +326,9 @@ input[type="search"],
     #footerIcons {
       margin: auto;
       float: none; } }
-  #footerIcons > #followUs-section > #iconsBox {
+  #footerIcons > #followUsSection > #iconsBox {
     max-width: 235px; }
-    #footerIcons > #followUs-section > #iconsBox > .iconsBox__img {
+    #footerIcons > #followUsSection > #iconsBox > .icons-box__img {
       max-width: 35px;
       min-height: 35px;
       margin-left: 3.5%; }

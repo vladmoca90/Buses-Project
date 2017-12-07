@@ -41,14 +41,14 @@ body {
 #iconsBox {
     width: $max-size;
 }
-#topSection{
+#topSection {
     line-height: 70px;
 }
 #top,
 #topSection > img[title="Logo"] {
     min-height: 70px;
 }
-#topSectionimg {
+#topSection > img[title="Logo"] {
     max-width: 300px;
     @media screen and (max-width: 640px) {
         @include positions-group;
@@ -59,7 +59,7 @@ body {
     @media screen and (max-width: 767px) {
         display: none;
     }
-    p {
+    & > p {
         display: inline;
     }
 } 
@@ -367,10 +367,10 @@ input[type="search"],
     @media screen and (max-width: 767px) {
         @include positions-group;
     }
-    & > #followUs-section {
+    & > #followUsSection {
         & > #iconsBox {
             max-width: 235px;
-            & > .iconsBox__img {
+            & > .icons-box__img {
                 max-width: 35px;
                 min-height: 35px;
                 margin-left: 3.5%;
