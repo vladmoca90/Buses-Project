@@ -5,8 +5,8 @@ body {
   padding: 0px;
   background: #FFFFFF; }
 
-#top,
-#languages > img,
+#topSection,
+#languagesMenu > img,
 #buses-search-bar div > button,
 #buttons-nav,
 .buttons-menu > li,
@@ -14,109 +14,109 @@ body {
 .busNumbers {
   height: 100%; }
 
-#languages,
-#languages-list,
-#languages img,
+#languagesMenu,
+#languagesList,
+#languagesMenu > img,
 #buttons-nav,
 #poster,
-#buy-a-ticket,
-#footer-middle,
-#icons-box {
+#buyATicket,
+#footerMiddle,
+#iconsBox {
   width: 100%; }
 
-#top {
+#topSection {
   line-height: 70px; }
 
 #top,
-#top img {
+#topSection > img[title="Logo"] {
   min-height: 70px; }
 
-#top img {
+#topSectionimg {
   max-width: 300px; }
   @media screen and (max-width: 640px) {
-    #top img {
+    #topSectionimg {
       margin: auto;
       float: none;
       display: block; } }
 
 @media screen and (max-width: 767px) {
-  #top-text {
+  #topText {
     display: none; } }
 
-#top-text p {
+#topText p {
   display: inline; }
 
-#languages,
+#languagesMenu,
 #top,
-#top-text,
+#topText,
 .buttons-menu a,
 #footer,
-.busesReadingList
-#footer-icons > h4 {
+#busesReadingList
+#footerIcons > h4 {
   font-family: Ubuntu; }
 
 #buttons-nav,
-#footer-container,
-#icons-box {
+#footerContainer,
+#iconsBox {
   margin: auto; }
 
 top-data p,
-#buses-search-bar div > button span
-.footer-Buses {
+#busesSearchBar div > button span
+.footer-buses {
   font-size: 16px; }
 
-#top-text,
-#languages,
-#buses-search-bar,
-.busesReadingList {
+#topText,
+#languagesMenu,
+#busesSearchBar,
+#busesReadingList {
   float: right; }
 
 @media screen and (max-width: 640px) {
-  #top-text,
-  #buses-search-bar {
+  #topText,
+  #busesSearchBar {
     display: none; } }
 
-#buses-search-bar {
+#busesSearchBar {
   margin-top: 0px !important;
   margin-right: 0px !important; }
   @media screen and (max-width: 767px) {
-    #buses-search-bar {
+    #busesSearchBar {
       height: 100%;
       min-height: 50px; } }
-  #buses-search-bar input[type="search"] {
+  #busesSearchBar input[type="search"] {
     max-width: 125px; }
-  #buses-search-bar input[type="search"],
-  #buses-search-bar > button {
+  #busesSearchBar input[type="search"],
+  #busesSearchBar > button {
     min-height: 34px;
     border-radius: 0%; }
     @media screen and (max-width: 767px) {
-      #buses-search-bar input[type="search"],
-      #buses-search-bar > button {
+      #busesSearchBar input[type="search"],
+      #busesSearchBar > button {
         float: left; } }
 
-#navigation-menu,
+#navigationMenu,
 #button-toggle:hover,
 #button-toggle:focus {
   background: #C62828 !important; }
 
-#navigation-menu {
+#navigationMenu {
   margin-bottom: 0px;
   border-radius: 0px !important;
   min-height: 60px !important; }
-  #navigation-menu #button-toggle {
+  #navigationMenu #button-toggle {
     border: 2px solid #FFFFFF !important;
     border-radius: 8px !important; }
     @media screen and (max-width: 767px) {
-      #navigation-menu #button-toggle {
+      #navigationMenu #button-toggle {
         margin-top: 12px !important; } }
 
-#navigation-menu,
+#navigationMenu,
 .nav-button-menu {
   border: #C62828 !important; }
 
-#languages,
+#languagesMenu,
 .nav-button-menu,
-#buy-a-ticket,
+#buyATicket,
 #footer {
   background: #C62828; }
 
@@ -131,16 +131,16 @@ top-data p,
       position: absolute;
       z-index: 1; } }
 
-#buttons-nav,
-.buttons-menu,
-.buttons-menu > a:hover {
+#buttonsNav,
+.buttonsMenu,
+.buttonsMenu > a:hover {
   min-height: 60px; }
 
-.buttons-menu a,
+#buttonsMenu a,
 .footer-Reading {
   font-size: 17px; }
 
-#languages {
+#languagesMenu {
   max-width: 100px;
   font-size: 15px;
   line-height: 25px;
@@ -148,62 +148,62 @@ top-data p,
   margin: 15px 15px 0px 0px;
   padding: 5px; }
   @media screen and (max-width: 767px) {
-    #languages {
+    #languagesMenu {
       display: none; } }
-  #languages > a {
+  #languagesMenu > a {
     text-decoration: none;
     color: #FFFFFF !important; }
-  #languages .caret-languages {
+  #languagesMenu .caret-languages {
     margin-left: 5px; }
-  #languages #languages-list {
+  #languagesMenu #languagesList {
     line-height: 20px;
     min-width: 98px;
     border-radius: 0px;
     padding: 10px;
     margin: 0px !important; }
-    #languages #languages-list > li {
+    #languagesMenu #languagesList > li {
       margin-top: 10px; }
-      #languages #languages-list > li:first-child {
+      #languagesMenu #languagesList > li:first-child {
         margin-top: 0px; }
-      #languages #languages-list > li > img {
+      #languagesMenu #languagesList > li > img {
         max-width: 20px;
         min-height: 16px; }
 
-#buttons-nav {
+#buttonsNav {
   max-width: 500px;
   float: none; }
   @media screen and (max-width: 767px) {
-    #buttons-nav {
+    #buttonsNav {
       max-width: 100%; } }
-  #buttons-nav .buttons-menu {
+  #buttonsNav .buttonsMenu {
     line-height: 60px; }
-    #buttons-nav .buttons-menu > a {
+    #buttonsNav .buttonsMenu > a {
       line-height: 25px;
       color: #FFFFFF !important; }
       @media screen and (max-width: 767px) {
-        #buttons-nav .buttons-menu > a {
+        #buttonsNav .buttonsMenu > a {
           line-height: 38px; } }
-      #buttons-nav .buttons-menu > a:hover {
+      #buttonsNav .buttonsMenu > a:hover {
         background: #D32F2F;
         border-bottom: 5px solid #FF5252; }
         @media screen and (max-width: 767px) {
-          #buttons-nav .buttons-menu > a:hover {
+          #buttonsNav .buttonsMenu > a:hover {
             border-bottom: 0px; } }
 
-#top-text > p > span:hover,
-#languages-list > li,
-.busNumbers > a:hover,
-#footer-icons > img,
+#topText > p > span:hover,
+#languagesList > li,
+.bus-numbers > a:hover,
+#footerIcons > img,
 .footer-middle-list > li > a:hover,
-#icons-box > img:hover {
+#iconsBox > img:hover {
   cursor: pointer; }
 
-#buy-a-ticket > input,
-#buy-a-ticket > label,
-#footer-texts,
-#footer-middle,
+#buyATicket > input,
+#buyATicket > label,
+#footerTexts,
+#footerMiddle,
 .footer-middle-list,
-#footer-icons {
+#footerIcons {
   float: left; }
 
 .sitemap,
@@ -213,25 +213,25 @@ top-data p,
 .telephone-number {
   font-size: 17px; }
 
-#top img,
+#topSection > img[title="Logo"],
 input[type="search"],
-.busesReadingList,
+.buses-reading-list,
 #footer,
-#footer-texts {
+#footerTexts {
   width: 100%;
   height: 100%; }
 
 #middle {
   overflow: auto; }
 
-#buy-a-ticket {
+#buyATicket {
   max-width: 360px;
   position: absolute;
   top: 180px;
   left: 40px;
   padding: 15px;
   color: #FFFFFF; }
-  #buy-a-ticket > div {
+  #buyATicket > div {
     margin-left: 10px;
     margin-right: 10px; }
 
@@ -244,66 +244,66 @@ input[type="search"],
     #poster {
       display: none; } }
 
-#back-button {
+.back-button {
   margin: 1% 0% 1% 2%; }
-  #back-button > span:nth-child(2) {
+  .back-button > span:nth-child(2) {
     margin-left: 5px; }
 
-.busesReadingList {
+.buses-reading-list {
   max-width: 450px;
   max-height: 350px;
   overflow-y: scroll;
   margin: 2% 0%;
   border: 2px solid #CCCCCC; }
   @media screen and (max-width: 799px) {
-    .busesReadingList {
+    .buses-reading-list {
       margin: 2% auto;
       float: none; } }
-  .busesReadingList > .busDetails {
+  .buses-reading-list > .bus-details {
     margin-bottom: 0px !important; }
-    .busesReadingList > .busDetails > .busNumbers,
-    .busesReadingList > .busDetails > .busDestination {
+    .buses-reading-list > .bus-details > .bus-numbers,
+    .buses-reading-list > .bus-details > .bus-destination {
       font-size: 18px; }
       @media screen and (min-width: 320px) and (max-width: 384px) {
-        .busesReadingList > .busDetails > .busNumbers,
-        .busesReadingList > .busDetails > .busDestination {
+        .buses-reading-list > .bus-details > .bus-numbers,
+        .buses-reading-list > .bus-details > .bus-destination {
           font-size: 12px; } }
       @media screen and (min-width: 385px) and (max-width: 480px) {
-        .busesReadingList > .busDetails > .busNumbers,
-        .busesReadingList > .busDetails > .busDestination {
+        .buses-reading-list > .bus-details > .bus-numbers,
+        .buses-reading-list > .bus-details > .bus-destination {
           font-size: 14px; } }
       @media screen and (min-width: 481px) and (max-width: 512px) {
-        .busesReadingList > .busDetails > .busNumbers,
-        .busesReadingList > .busDetails > .busDestination {
+        .buses-reading-list > .bus-details > .bus-numbers,
+        .buses-reading-list > .bus-details > .bus-destination {
           font-size: 16px; } }
-    .busesReadingList > .busDetails > .busNumbers > a {
+    .buses-reading-list > .bus-details > .bus-numbers > a {
       color: #000000; }
-      .busesReadingList > .busDetails > .busNumbers > a:hover {
+      .buses-reading-list > .bus-details > .bus-numbers > a:hover {
         text-decoration: none; }
 
 #footer,
-#footer-container {
+#footerContainer {
   min-height: 170px; }
 
-#footer > #footer-container {
+#footer > #footerContainer {
   max-width: 1165px;
   overflow: hidden; }
-  #footer > #footer-container > #footer-texts {
+  #footer > #footerContainer > #footerTexts {
     max-width: 385px;
     padding-top: 10px; }
-    #footer > #footer-container > #footer-texts > p {
+    #footer > #footerContainer > #footerTexts > p {
       padding: 1% 0% 0% 1%; }
-      #footer > #footer-container > #footer-texts > p .sitemap {
+      #footer > #footerContainer > #footerTexts > p .sitemap {
         padding-right: 10px; }
-      #footer > #footer-container > #footer-texts > p .useful-links {
+      #footer > #footerContainer > #footerTexts > p .useful-links {
         padding-left: 10px; }
-      #footer > #footer-container > #footer-texts > p .footer-Reading {
+      #footer > #footerContainer > #footerTexts > p .footer-Reading {
         font-weight: bold; }
-      #footer > #footer-container > #footer-texts > p .footer-Buses {
+      #footer > #footerContainer > #footerTexts > p .footer-buses {
         color: #F7A600; }
-  #footer > #footer-container #footer-middle {
+  #footer > #footerContainer #footerMiddle {
     max-width: 420px; }
-    #footer > #footer-container #footer-middle > .footer-middle-list {
+    #footer > #footerContainer #footerMiddle > .footer-middle-list {
       margin: 2% 0% 0% 10%; }
 
 #footer,
@@ -311,24 +311,24 @@ input[type="search"],
   color: #FFFFFF; }
 
 .footer-middle-list > li,
-#followUs-section {
+#followUsSection {
   margin-top: 3%; }
 
 @media screen and (max-width: 767px) {
-  #footer-texts,
-  #footer-middle {
+  #footerTexts,
+  #footerMiddle {
     display: none; } }
 
-#footer-icons {
+#footerIcons {
   max-width: 350px;
   padding-top: 0.3%; }
   @media screen and (max-width: 767px) {
-    #footer-icons {
+    #footerIcons {
       margin: auto;
       float: none; } }
-  #footer-icons > #followUs-section > #icons-box {
+  #footerIcons > #followUs-section > #iconsBox {
     max-width: 235px; }
-    #footer-icons > #followUs-section > #icons-box > img {
+    #footerIcons > #followUs-section > #iconsBox > .iconsBox__img {
       max-width: 35px;
       min-height: 35px;
       margin-left: 3.5%; }

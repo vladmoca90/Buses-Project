@@ -2,11 +2,11 @@
 
     <title-directive></title-directive>
 
-    <div class="busesReadingList">
-        <table role="presentation" class="table table-bordered busDetails">
+    <div id="busesReadingList">
+        <table role="presentation" class="table table-bordered bus-details">
             <tr class="bus-row" ng-repeat="bus in allBusesInfo.buses" ng-click="goToBusOverview(bus)">
-                <td class="busNumbers text-center"><a>{{bus.number}}</a></td>
-                <td class="busDestination">{{bus.start}} - {{bus.end}}</td>
+                <td class="bus-numbers text-center"><a>{{bus.number}}</a></td>
+                <td class="bus-destination">{{bus.start}} - {{bus.end}}</td>
             </tr>
         </table>
     </div>

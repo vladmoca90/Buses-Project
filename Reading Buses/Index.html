@@ -53,28 +53,28 @@
 </head>
 <body ng-app="myApp">
     <header role="banner">
-        <div id="top">
+        <div id="topSection">
             <img role="img" src="Images/RB-logo.jpg" alt="Reading Buses Logo" title="Logo" />
-            <form role="form" class="navbar-form" id="buses-search-bar">
+            <form role="form" class="navbar-form" id="busesSearchBar">
                 <div role="group" class="form-group">
                     <button role="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button><input role="search" type="search" placeholder="Search..." class="form-control" aria-required="false" />
                 </div>
             </form>
-            <div id="top-text">
+            <div id="topText">
                 <p><a role="link" href="#">Register</a></p>
                 <p>|</p>
                 <p><a role="link" href="#">Login</a></p>
                 <p>|</p>
                 <p><a role="link" href="#">Privacy and Cookies</a></p>
             </div>
-            <div id="languages" class="dropdown" ng-controller="dropdownController">
+            <div id="languagesMenu" class="dropdown" ng-controller="dropdownController">
                 <a role="link" data-toggle="dropdown">Languages<span class="caret caret-languages"></span></a>
-                <ul role="list" id="languages-list" class="dropdown-menu list-unstyled">
+                <ul role="list" id="languagesList" class="dropdown-menu list-unstyled">
                     <li role="listitem" ng-repeat="language in languages"><img role="img" ng-src="{{language.languageFlag}}" />&nbsp;{{language.languageName}}</li>
                 </ul>
             </div>
         </div>
-        <nav role="navigation" id="navigation-menu" class="navbar navbar-inverse">
+        <nav role="navigation" id="navigationMenu" class="navbar navbar-inverse">
             <div class="navbar-header">
                 <button role="button" type="button" id="button-toggle" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                     <span class="sr-only">Toggle navigation</span>
@@ -84,7 +84,7 @@
                 </button>
             </div>
             <div role="navigation" id="navbarCollapse" class="collapse navbar-collapse nav-button-menu">
-                <ul role="list" id="buttons-nav" class="nav navbar-nav">
+                <ul role="list" id="buttonsNav" class="nav navbar-nav">
                     <li role="listitem" class="buttons-menu"><a role="link" href="Index.html">Home</a></li>
                     <li role="listitem" class="buttons-menu"><a role="link" href="#">About Us</a></li>
                     <li role="listitem" class="buttons-menu"><a role="link" href="#">Offers</a></li>
@@ -97,7 +97,7 @@
     </header>
     <section role="main" id="middle">
         <div role="presentation" id="poster">
-            <!-- <form role="form" id="buy-a-ticket" class="form-horizontal">
+            <!-- <form role="form" id="buyATicket" class="form-horizontal">
                 <div role="group" class="form-group">
                     <label for="from">From:</label>
                     <input type="text" class="form-control" />
@@ -124,13 +124,13 @@
         <div ng-view></div>
     </section>
     <footer role="contentinfo" id="footer" class="clearfix">
-        <div id="footer-container">
-            <div id="footer-texts">
+        <div id="footerContainer">
+            <div id="footerTexts">
                 <p><span class="sitemap">Sitemap</span>|<span class="useful-links">Useful Links</span></p>
-                <p><span class="footer-Reading">Reading</span><span class="footer-Buses">Buses</span><span class="great-knollys-street"> - Great Knollys Street, Reading RG1 7HH</span></p>
+                <p><span class="footer-Reading">Reading</span><span class="footer-buses">Buses</span><span class="great-knollys-street"> - Great Knollys Street, Reading RG1 7HH</span></p>
                 <p><span class="telephone-number">Copyright Reading Buses © 2009</span></p>
             </div>
-            <div id="footer-middle">
+            <div id="footerMiddle">
                 <ul role="list" class="list-unstyled footer-middle-list">
                     <li role="listitem"><a role="link" href="#">Search you Area</a></li>
                     <li role="listitem"><a role="link" href="#">Terms and Conditions</a></li>
@@ -148,17 +148,17 @@
                     <li role="listitem"><a role="link" href="#">Contact Form</a></li>
                 </ul>
             </div>
-            <div id="footer-icons">
+            <div id="footerIcons">
                 <h4 role="heading" class="text-center"><span class="btn-default fa-telephone"></span>Call us on: 01189594000</h4>
                 <h6 role="heading">Calls cost 13p per minute, plus your phone company's access charge. Phone bookings incur a £2 booking fee. Lines open 7 days a week, 8am - 10pm.</h6>
-                <div id="followUs-section">
+                <div id="followUsSection">
                     <h4 role="heading" class="text-center">Follow Us</h4>
-                    <div id="icons-box">
-                        <img role="img" src="Images/facebook.png" alt="Facebook Icon" title="Facebook" />
-                        <img role="img" src="Images/linkedin.png" alt="Linkedin Icon" title="Linkedin" />
-                        <img role="img" src="Images/twitter.png" alt="Twitter Icon" title="Twitter" />
-                        <img role="img" src="Images/instagram.png" alt="Instagram Icon" title="Instagram" />
-                        <img role="img" src="Images/google.png" alt="Google Icon" title="Google" />
+                    <div id="iconsBox">
+                        <img class="icons-box__img" role="img" src="Images/facebook.png" alt="Facebook Icon" title="Facebook" />
+                        <img class="icons-box__img" role="img" src="Images/linkedin.png" alt="Linkedin Icon" title="Linkedin" />
+                        <img class="icons-box__img" role="img" src="Images/twitter.png" alt="Twitter Icon" title="Twitter" />
+                        <img class="icons-box__img" role="img" src="Images/instagram.png" alt="Instagram Icon" title="Instagram" />
+                        <img class="icons-box__img" role="img" src="Images/google.png" alt="Google Icon" title="Google" />
                     </div>
                 </div>
             </div>

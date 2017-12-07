@@ -22,8 +22,8 @@ body {
     padding: 0px;
     background: $white;
 }
-#top,
-#languages > img,
+#topSection,
+#languagesMenu > img,
 #buses-search-bar div > button,
 #buttons-nav,
 .buttons-menu > li,
@@ -31,31 +31,31 @@ body {
 .busNumbers {
     height: $max-size;
 }
-#languages,
-#languages-list,
-#languages img,
+#languagesMenu,
+#languagesList,
+#languagesMenu > img,
 #buttons-nav,
 #poster,
-#buy-a-ticket,
-#footer-middle,
-#icons-box {
+#buyATicket,
+#footerMiddle,
+#iconsBox {
     width: $max-size;
 }
-#top {
+#topSection{
     line-height: 70px;
 }
 #top,
-#top img {
+#topSection > img[title="Logo"] {
     min-height: 70px;
 }
-#top img {
+#topSectionimg {
     max-width: 300px;
     @media screen and (max-width: 640px) {
         @include positions-group;
         display: block;
     }
 }
-#top-text {
+#topText {
     @media screen and (max-width: 767px) {
         display: none;
     }
@@ -63,38 +63,38 @@ body {
         display: inline;
     }
 } 
-#languages,
+#languagesMenu,
 #top,
-#top-text,
+#topText,
 .buttons-menu a,
 #footer,
-.busesReadingList
-#footer-icons > h4 {
+#busesReadingList
+#footerIcons > h4 {
     font-family: $ubuntu;
 }
 #buttons-nav,
-#footer-container,
-#icons-box {
+#footerContainer,
+#iconsBox {
     margin: auto;
 }
 top-data p,
-#buses-search-bar div > button span
-.footer-Buses {
+#busesSearchBar div > button span
+.footer-buses {
     font-size: 16px;
 }
-#top-text,
-#languages,
-#buses-search-bar,
-.busesReadingList {
+#topText,
+#languagesMenu,
+#busesSearchBar,
+#busesReadingList {
     float: right;
 }
-#top-text,
-#buses-search-bar {
+#topText,
+#busesSearchBar {
     @media screen and (max-width: 640px) {
         display: none;
     }
 }
-#buses-search-bar {
+#busesSearchBar {
     margin-top: 0px !important;
     margin-right: 0px !important;
     @media screen and (max-width: 767px) {
@@ -113,12 +113,12 @@ top-data p,
         }
     }
 }
-#navigation-menu,
+#navigationMenu,
 #button-toggle:hover,
 #button-toggle:focus {
     background: $dark-red !important;
 }
-#navigation-menu {
+#navigationMenu {
     margin-bottom: 0px;
     border-radius: 0px !important;
     min-height: 60px !important;
@@ -130,13 +130,13 @@ top-data p,
         }
     }
 }
-#navigation-menu,
+#navigationMenu,
 .nav-button-menu {
     border: $dark-red !important;
 }
-#languages,
+#languagesMenu,
 .nav-button-menu,
-#buy-a-ticket,
+#buyATicket,
 #footer {
     background: $dark-red;
 }
@@ -151,16 +151,16 @@ top-data p,
         z-index: 1;
     }
 }
-#buttons-nav,
-.buttons-menu,
-.buttons-menu > a:hover {
+#buttonsNav,
+.buttonsMenu,
+.buttonsMenu > a:hover {
     min-height: 60px;
 }
-.buttons-menu a,
+#buttonsMenu a,
 .footer-Reading {
     font-size: 17px;
 }
-#languages {
+#languagesMenu {
     max-width: 100px;
     font-size: 15px;
     line-height: 25px;
@@ -177,7 +177,7 @@ top-data p,
     .caret-languages {
         margin-left: 5px;
     }
-    #languages-list {
+    #languagesList {
         line-height: 20px;
         min-width: 98px;
         border-radius: 0px;
@@ -195,13 +195,13 @@ top-data p,
         }
     }
 }
-#buttons-nav {
+#buttonsNav {
     max-width: 500px;
     float: none;
     @media screen and (max-width: 767px) {
         max-width: 100%;
     }
-    .buttons-menu {
+    .buttonsMenu {
         line-height: 60px;
         & > a {
             line-height: 25px;
@@ -219,20 +219,20 @@ top-data p,
         }
     }
 }
-#top-text > p > span:hover,
-#languages-list > li,
-.busNumbers > a:hover,
-#footer-icons > img,
+#topText > p > span:hover,
+#languagesList > li,
+.bus-numbers > a:hover,
+#footerIcons > img,
 .footer-middle-list > li > a:hover,
-#icons-box > img:hover {
+#iconsBox > img:hover {
     cursor: pointer;
 }
-#buy-a-ticket > input,
-#buy-a-ticket > label,
-#footer-texts,
-#footer-middle,
+#buyATicket > input,
+#buyATicket > label,
+#footerTexts,
+#footerMiddle,
 .footer-middle-list,
-#footer-icons {
+#footerIcons {
     float: left;
 }
 .sitemap,
@@ -242,17 +242,17 @@ top-data p,
 .telephone-number {
     font-size: 17px;
 }
-#top img, 
+#topSection > img[title="Logo"], 
 input[type="search"],
-.busesReadingList,
+.buses-reading-list,
 #footer,
-#footer-texts {
+#footerTexts {
     @include max-width-height-sizes;
 }
 #middle {
     overflow: auto;
 }
-#buy-a-ticket {
+#buyATicket {
     max-width: 360px;
     position: absolute;
     top: 180px;
@@ -273,13 +273,13 @@ input[type="search"],
         display: none;
     }
 }
-#back-button {
+.back-button {
     margin: 1% 0% 1% 2%;
     & > span:nth-child(2) {
         margin-left: 5px;
     }
 }
-.busesReadingList {  
+.buses-reading-list {  
     max-width: 450px; 
     max-height: 350px;
     overflow-y: scroll;
@@ -289,10 +289,10 @@ input[type="search"],
         margin: 2% auto;
         float: none;
     }
-    & > .busDetails {
+    & > .bus-details {
         margin-bottom: 0px !important;
-        & > .busNumbers,
-        & > .busDestination {
+        & > .bus-numbers,
+        & > .bus-destination {
             font-size: 18px;
             @media screen and (min-width: 320px) and (max-width: 384px) {
                 font-size: 12px;
@@ -304,7 +304,7 @@ input[type="search"],
                 font-size: 16px;
             }
         }
-        & > .busNumbers > a {
+        & > .bus-numbers > a {
             color: $black;
             &:hover {
                 text-decoration: none;
@@ -313,14 +313,14 @@ input[type="search"],
     }
 }
 #footer,
- #footer-container {
+ #footerContainer {
     min-height: 170px;
 }
 #footer {
-    & > #footer-container {
+    & > #footerContainer {
         max-width: 1165px;
         overflow: hidden;
-        & > #footer-texts {
+        & > #footerTexts {
             max-width: 385px;
             padding-top: 10px;
             & > p {
@@ -334,12 +334,12 @@ input[type="search"],
                 .footer-Reading {
                     font-weight: bold;
                 }
-                .footer-Buses {
+                .footer-buses {
                     color: #F7A600;
                 }
             }
         }
-        #footer-middle {
+        #footerMiddle {
             max-width: 420px;
             & > .footer-middle-list {
                 margin: 2% 0% 0% 10%;
@@ -352,25 +352,25 @@ input[type="search"],
     color: $white;
 }
 .footer-middle-list > li,
-#followUs-section {
+#followUsSection {
     margin-top: 3%;
 }
-#footer-texts,
-#footer-middle {
+#footerTexts,
+#footerMiddle {
     @media screen and (max-width: 767px) {
         display: none;
     }
 }
-#footer-icons {
+#footerIcons {
     max-width: 350px;
     padding-top: 0.3%;
     @media screen and (max-width: 767px) {
         @include positions-group;
     }
     & > #followUs-section {
-        & > #icons-box {
+        & > #iconsBox {
             max-width: 235px;
-            & > img {
+            & > .iconsBox__img {
                 max-width: 35px;
                 min-height: 35px;
                 margin-left: 3.5%;
