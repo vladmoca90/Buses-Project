@@ -6,7 +6,7 @@ body {
   background: #FFFFFF; }
 
 #top,
-#languages img,
+#languages > img,
 #buses-search-bar div > button,
 #buttons-nav,
 .buttons-menu > li,
@@ -52,7 +52,7 @@ body {
 .buttons-menu a,
 #footer,
 .busesReadingList
-#footer-icons h4 {
+#footer-icons > h4 {
   font-family: Ubuntu; }
 
 #buttons-nav,
@@ -86,12 +86,12 @@ top-data p,
   #buses-search-bar input[type="search"] {
     max-width: 125px; }
   #buses-search-bar input[type="search"],
-  #buses-search-bar div > button {
+  #buses-search-bar > button {
     min-height: 34px;
     border-radius: 0%; }
     @media screen and (max-width: 767px) {
       #buses-search-bar input[type="search"],
-      #buses-search-bar div > button {
+      #buses-search-bar > button {
         float: left; } }
 
 #navigation-menu,
@@ -133,7 +133,7 @@ top-data p,
 
 #buttons-nav,
 .buttons-menu,
-.buttons-menu a:hover {
+.buttons-menu > a:hover {
   min-height: 60px; }
 
 .buttons-menu a,
@@ -150,7 +150,7 @@ top-data p,
   @media screen and (max-width: 767px) {
     #languages {
       display: none; } }
-  #languages a {
+  #languages > a {
     text-decoration: none;
     color: #FFFFFF !important; }
   #languages .caret-languages {
@@ -161,11 +161,11 @@ top-data p,
     border-radius: 0px;
     padding: 10px;
     margin: 0px !important; }
-    #languages #languages-list li {
+    #languages #languages-list > li {
       margin-top: 10px; }
-      #languages #languages-list li:first-child {
+      #languages #languages-list > li:first-child {
         margin-top: 0px; }
-      #languages #languages-list li img {
+      #languages #languages-list > li > img {
         max-width: 20px;
         min-height: 16px; }
 
@@ -177,29 +177,29 @@ top-data p,
       max-width: 100%; } }
   #buttons-nav .buttons-menu {
     line-height: 60px; }
-    #buttons-nav .buttons-menu a {
+    #buttons-nav .buttons-menu > a {
       line-height: 25px;
       color: #FFFFFF !important; }
       @media screen and (max-width: 767px) {
-        #buttons-nav .buttons-menu a {
+        #buttons-nav .buttons-menu > a {
           line-height: 38px; } }
-      #buttons-nav .buttons-menu a:hover {
+      #buttons-nav .buttons-menu > a:hover {
         background: #D32F2F;
         border-bottom: 5px solid #FF5252; }
         @media screen and (max-width: 767px) {
-          #buttons-nav .buttons-menu a:hover {
+          #buttons-nav .buttons-menu > a:hover {
             border-bottom: 0px; } }
 
 #top-text > p > span:hover,
-#languages-list li,
+#languages-list > li,
 .busNumbers > a:hover,
 #footer-icons > img,
-.footer-middle-list li > a:hover,
-#icons-box img:hover {
+.footer-middle-list > li > a:hover,
+#icons-box > img:hover {
   cursor: pointer; }
 
-#buy-a-ticket input,
-#buy-a-ticket label,
+#buy-a-ticket > input,
+#buy-a-ticket > label,
 #footer-texts,
 #footer-middle,
 .footer-middle-list,
@@ -231,7 +231,7 @@ input[type="search"],
   left: 40px;
   padding: 15px;
   color: #FFFFFF; }
-  #buy-a-ticket div {
+  #buy-a-ticket > div {
     margin-left: 10px;
     margin-right: 10px; }
 
@@ -246,7 +246,7 @@ input[type="search"],
 
 #back-button {
   margin: 1% 0% 1% 2%; }
-  #back-button span:nth-child(2) {
+  #back-button > span:nth-child(2) {
     margin-left: 5px; }
 
 .busesReadingList {
@@ -259,55 +259,55 @@ input[type="search"],
     .busesReadingList {
       margin: 2% auto;
       float: none; } }
-  .busesReadingList .busDetails {
+  .busesReadingList > .busDetails {
     margin-bottom: 0px !important; }
-    .busesReadingList .busDetails .busNumbers,
-    .busesReadingList .busDetails .busDestination {
+    .busesReadingList > .busDetails > .busNumbers,
+    .busesReadingList > .busDetails > .busDestination {
       font-size: 18px; }
       @media screen and (min-width: 320px) and (max-width: 384px) {
-        .busesReadingList .busDetails .busNumbers,
-        .busesReadingList .busDetails .busDestination {
+        .busesReadingList > .busDetails > .busNumbers,
+        .busesReadingList > .busDetails > .busDestination {
           font-size: 12px; } }
       @media screen and (min-width: 385px) and (max-width: 480px) {
-        .busesReadingList .busDetails .busNumbers,
-        .busesReadingList .busDetails .busDestination {
+        .busesReadingList > .busDetails > .busNumbers,
+        .busesReadingList > .busDetails > .busDestination {
           font-size: 14px; } }
       @media screen and (min-width: 481px) and (max-width: 512px) {
-        .busesReadingList .busDetails .busNumbers,
-        .busesReadingList .busDetails .busDestination {
+        .busesReadingList > .busDetails > .busNumbers,
+        .busesReadingList > .busDetails > .busDestination {
           font-size: 16px; } }
-    .busesReadingList .busDetails .busNumbers > a {
+    .busesReadingList > .busDetails > .busNumbers > a {
       color: #000000; }
-      .busesReadingList .busDetails .busNumbers > a:hover {
+      .busesReadingList > .busDetails > .busNumbers > a:hover {
         text-decoration: none; }
 
 #footer,
 #footer-container {
   min-height: 170px; }
 
-#footer #footer-container {
+#footer > #footer-container {
   max-width: 1165px;
   overflow: hidden; }
-  #footer #footer-container #footer-texts {
+  #footer > #footer-container > #footer-texts {
     max-width: 385px;
     padding-top: 10px; }
-    #footer #footer-container #footer-texts p {
+    #footer > #footer-container > #footer-texts > p {
       padding: 1% 0% 0% 1%; }
-      #footer #footer-container #footer-texts p .sitemap {
+      #footer > #footer-container > #footer-texts > p .sitemap {
         padding-right: 10px; }
-      #footer #footer-container #footer-texts p .useful-links {
+      #footer > #footer-container > #footer-texts > p .useful-links {
         padding-left: 10px; }
-      #footer #footer-container #footer-texts p .footer-Reading {
+      #footer > #footer-container > #footer-texts > p .footer-Reading {
         font-weight: bold; }
-      #footer #footer-container #footer-texts p .footer-Buses {
+      #footer > #footer-container > #footer-texts > p .footer-Buses {
         color: #F7A600; }
-  #footer #footer-container #footer-middle {
+  #footer > #footer-container #footer-middle {
     max-width: 420px; }
-    #footer #footer-container #footer-middle .footer-middle-list {
+    #footer > #footer-container #footer-middle > .footer-middle-list {
       margin: 2% 0% 0% 10%; }
 
 #footer,
-.footer-middle-list li > a {
+.footer-middle-list > li > a {
   color: #FFFFFF; }
 
 .footer-middle-list > li,
@@ -326,9 +326,9 @@ input[type="search"],
     #footer-icons {
       margin: auto;
       float: none; } }
-  #footer-icons #followUs-section #icons-box {
+  #footer-icons > #followUs-section > #icons-box {
     max-width: 235px; }
-    #footer-icons #followUs-section #icons-box img {
+    #footer-icons > #followUs-section > #icons-box > img {
       max-width: 35px;
       min-height: 35px;
       margin-left: 3.5%; }
