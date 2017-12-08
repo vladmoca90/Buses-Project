@@ -8,8 +8,8 @@ body {
 #topSection,
 #languagesMenu > img,
 #buses-search-bar div > button,
-#buttons-nav,
-.buttons-menu > li,
+#buttonsNav,
+.buttons-list > li,
 #poster,
 .busNumbers {
   height: 100%; }
@@ -17,7 +17,7 @@ body {
 #languagesMenu,
 #languagesList,
 #languagesMenu > img,
-#buttons-nav,
+#buttonsNav,
 #poster,
 #buyATicket,
 #footerMiddle,
@@ -49,13 +49,13 @@ body {
 #languagesMenu,
 #top,
 #topText,
-.buttons-menu a,
+.buttons-list a,
 #footer,
 #busesReadingList
 #footerIcons > h4 {
   font-family: Ubuntu; }
 
-#buttons-nav,
+#buttonsNav,
 #footerContainer,
 #iconsBox {
   margin: auto; }
@@ -175,19 +175,19 @@ top-data p,
   @media screen and (max-width: 767px) {
     #buttonsNav {
       max-width: 100%; } }
-  #buttonsNav .buttonsMenu {
+  #buttonsNav .buttons-list {
     line-height: 60px; }
-    #buttonsNav .buttonsMenu > a {
+    #buttonsNav .buttons-list > a {
       line-height: 25px;
       color: #FFFFFF !important; }
       @media screen and (max-width: 767px) {
-        #buttonsNav .buttonsMenu > a {
+        #buttonsNav .buttons-list > a {
           line-height: 38px; } }
-      #buttonsNav .buttonsMenu > a:hover {
+      #buttonsNav .buttons-list > a:hover {
         background: #D32F2F;
         border-bottom: 5px solid #FF5252; }
         @media screen and (max-width: 767px) {
-          #buttonsNav .buttonsMenu > a:hover {
+          #buttonsNav .buttons-list > a:hover {
             border-bottom: 0px; } }
 
 #topText > p > span:hover,

@@ -25,8 +25,8 @@ body {
 #topSection,
 #languagesMenu > img,
 #buses-search-bar div > button,
-#buttons-nav,
-.buttons-menu > li,
+#buttonsNav,
+.buttons-list > li,
 #poster,
 .busNumbers {
     height: $max-size;
@@ -34,7 +34,7 @@ body {
 #languagesMenu,
 #languagesList,
 #languagesMenu > img,
-#buttons-nav,
+#buttonsNav,
 #poster,
 #buyATicket,
 #footerMiddle,
@@ -66,13 +66,13 @@ body {
 #languagesMenu,
 #top,
 #topText,
-.buttons-menu a,
+.buttons-list a,
 #footer,
 #busesReadingList
 #footerIcons > h4 {
     font-family: $ubuntu;
 }
-#buttons-nav,
+#buttonsNav,
 #footerContainer,
 #iconsBox {
     margin: auto;
@@ -201,7 +201,7 @@ top-data p,
     @media screen and (max-width: 767px) {
         max-width: 100%;
     }
-    .buttonsMenu {
+    .buttons-list {
         line-height: 60px;
         & > a {
             line-height: 25px;
