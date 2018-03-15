@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\mixins\mixins.css" />
+    <Content Include="Content\mixins\mixins.min.css" />
     <Content Include="Content\site.css">
       <DependentUpon>site.scss</DependentUpon>
     </Content>
@@ -101,6 +103,10 @@
       <DependentUpon>site.css</DependentUpon>
     </Content>
     <Content Include="Content\styles.min.css" />
+    <Content Include="Content\utilities\utilities.css" />
+    <Content Include="Content\utilities\utilities.min.css" />
+    <Content Include="Content\variables\variables.css" />
+    <Content Include="Content\variables\variables.min.css" />
     <Content Include="Images\11.png" />
     <Content Include="Images\13.png" />
     <Content Include="Images\14.png" />
@@ -168,6 +174,9 @@
     </None>
     <Content Include="Content\Index.scss" />
     <Content Include="Content\site.scss" />
+    <Content Include="Content\variables\variables.scss" />
+    <Content Include="Content\utilities\utilities.scss" />
+    <Content Include="Content\mixins\mixins.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
