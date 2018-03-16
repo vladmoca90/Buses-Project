@@ -10,14 +10,14 @@
     }
 }
 
-@mixin border-values($top, $left, $bottom, $right, $style, $color) {
+@mixin border-values($top, $right, $bottom, $left, $style, $color) {
     border: {
-       top: $top;
-       left: $left;
-       bottom: $bottom;
-       right: $right;
-       style: $style;
-       color: $color;
+        top: $top;
+        right: $right;
+        bottom: $bottom;
+        left: $left;
+        style: $style;
+        color: $color;
     }
 }
 
